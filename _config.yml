@@ -1,7 +1,7 @@
 title:            Deren Eaton
 description:      Academic Portal.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://www.dereneaton.github.io
+url:              http://dereneaton.github.io
 relative_permalinks: false
 
 # Owner/author information
