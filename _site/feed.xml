@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Deren Eaton</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2014-04-15T19:26:15-04:00</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>Deren Eaton</name>
+  <uri>http://localhost:4000/</uri>
+  <email>deren.eaton@yale.edu</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Simulating RADseq data on a fixed tree]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/phylogenetics/2014-04-15-simulating-radseq-data-on-a-fixed-tree/" />
+  <id>http://localhost:4000/phylogenetics/2014-04-15-simulating-radseq-data-on-a-fixed-tree</id>
+  <updated>2014-04-15 17:41:56 -0400T00:00:00-00:00</updated>
+  <published>2014-04-15T17:56:47-04:00</published>
+  
+  <author>
+    <name>Deren Eaton</name>
+    <uri>http://localhost:4000</uri>
+    <email>deren.eaton@yale.edu</email>
+  </author>
+  <content type="html">&lt;h4 id=&quot;background&quot;&gt;Background&lt;/h4&gt;
+&lt;p&gt;I originally developed this script for bug testing &lt;em&gt;pyRAD&lt;/em&gt;, but more recently 
+I’ve used similar versions of it in a number of studies to simulate RADseq data 
+with varying amounts of divergence between samples, proportions of missing data, and with or 
+without gene flow between lineages. I figured it may be useful to others so I am making 
+it available here, with instructions. &lt;/p&gt;
+
+&lt;p&gt;The script sets up code to call the Python module &lt;a href=&quot;http://http://egglib.sourceforge.net/&quot;&gt;egglib&lt;/a&gt;
+to simulate sequence data under a coalescent model, and then it dresses up the sequences
+to act as if they had been generated as a reduced representation genomic library (RRL). So 
+you will need to first install the egglib package found at the link above. &lt;/p&gt;
+
+&lt;h4 id=&quot;calling-the-script&quot;&gt;Calling the script&lt;/h4&gt;
+&lt;p&gt;simRLLs.py takes five arguments:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Allow mutations to restriction sites (1/0).&lt;/li&gt;
+  &lt;li&gt;Allow indels (decimal). Probability a mutation is a deletion.&lt;/li&gt;
+  &lt;li&gt;Number of individuals per tip taxon (int; minimum 1).&lt;/li&gt;
+  &lt;li&gt;Number of loci to sample (int; multiple of 100 or 1000)&lt;/li&gt;
+  &lt;li&gt;Data type (string; options: rad, ddrad, gbs, pairddrad, pairgbs)&lt;/li&gt;
+  &lt;li&gt;Raw or Assembled data (0/1)&lt;/li&gt;
+  &lt;li&gt;Prefix name for output files (string)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;python simRRLs.py 0 0.1 10 rad 1 simrads
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Ideally one would be able to put in any topology on which to evolve the sequences, but 
+I haven’t yet had time to work this into the script. For now sequences are evolved only
+on the fixed tree shown below: &lt;/p&gt;
+
+&lt;h4 id=&quot;insert-image-here&quot;&gt;insert image here.&lt;/h4&gt;
+
+&lt;h5 id=&quot;option-1&quot;&gt;option 1&lt;/h5&gt;
+&lt;p&gt;The outgroup taxon “X” is not included in the output data, but is used in the simulation 
+to polarize mutations relative to an outgroup. If option 1 is set to allow mutations to 
+restriction sites then any mutations in restriction sites relative to the outgroup will 
+cause reads to be excluded from the library. &lt;/p&gt;
+
+&lt;h5 id=&quot;option-2&quot;&gt;option 2&lt;/h5&gt;
+&lt;p&gt;Any point mutations relative to the outgroup taxon “X” may be converted to a deletion
+with the probability set here. If 0, no indels are present in the data set. &lt;/p&gt;
+
+&lt;h5 id=&quot;option-5&quot;&gt;option 5&lt;/h5&gt;
+
+&lt;h2 id=&quot;output&quot;&gt;Output&lt;/h2&gt;
+&lt;p&gt;This will create two output files. If the prefix name you entered was “simrads” you will 
+get back simrads.fastq.gz and simarads.barcodes. The first is a compressed fastq file with
+the sequence data and the latter is a text file mapping barcodes to sample names. &lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/phylogenetics/2014-04-15-simulating-radseq-data-on-a-fixed-tree/&quot;&gt;Simulating RADseq data on a fixed tree&lt;/a&gt; was originally published by Deren Eaton at &lt;a href=&quot;http://localhost:4000&quot;&gt;Deren Eaton&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[fastStructure analysis of pyRAD output]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/popgen/2014-04-12-faststructure-analysis-of-pyrad-output/" />
+  <id>http://localhost:4000/popgen/2014-04-12-faststructure-analysis-of-pyrad-output</id>
+  <published>2014-04-15T16:51:25-04:00</published>
+  <updated>2014-04-15T16:51:25-04:00</updated>
+  <author>
+    <name>Deren Eaton</name>
+    <uri>http://localhost:4000</uri>
+    <email>deren.eaton@yale.edu</email>
+  </author>
+  <content type="html">&lt;h4 id=&quot;topics&quot;&gt;&lt;em&gt;Topics&lt;/em&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;converting &lt;em&gt;pyRAD&lt;/em&gt; output into .structure format&lt;/li&gt;
+  &lt;li&gt;using fastStructure&lt;/li&gt;
+  &lt;li&gt;the effect of missing data (very relevant for RADseq)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;structure&quot;&gt;&lt;em&gt;Structure&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;Jonathan Pritchard’s Bayesian clustering program &lt;em&gt;Structure&lt;/em&gt; is widely used to infer population structure from genetic data. From reading the documentation it is clear there are many additional functions built into the software that are rarely used. These include setting geographic distances between populations, at least from what I’ve seen, and they bloat the software a bit, as well as the input files. &lt;/p&gt;
+
+&lt;h4 id=&quot;faststructure&quot;&gt;&lt;em&gt;fastStructure&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;A recent paper by  (arxiv:) describes a fast new algorithm that takes advantage of () to perform &lt;em&gt;Structure&lt;/em&gt; analyses much faster, and in some cases more accurately. This new version will be particularly applicable to very large SNP data sets, such as human genome data, and this drew my attention since it should be similarly applicable to SNP data sets generated with RADseq. &lt;/p&gt;
+
+&lt;h4 id=&quot;getting-structure-files-from-pyrad&quot;&gt;getting structure files from &lt;em&gt;pyRAD&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;the program can be used for much more than its base applications, the assignment of individuals to do much more than it i&lt;/p&gt;
+
+&lt;h2 id=&quot;blah&quot;&gt;blah&lt;/h2&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/popgen/2014-04-12-faststructure-analysis-of-pyrad-output/&quot;&gt;fastStructure analysis of pyRAD output&lt;/a&gt; was originally published by Deren Eaton at &lt;a href=&quot;http://localhost:4000&quot;&gt;Deren Eaton&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Posting with ipython notebook]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/web/2014-04-12-posting-with-ipython-notebook/" />
+  <id>http://localhost:4000/web/2014-04-12-posting-with-ipython-notebook</id>
+  <published>2014-04-15T16:51:23-04:00</published>
+  <updated>2014-04-15T16:51:23-04:00</updated>
+  <author>
+    <name>Deren Eaton</name>
+    <uri>http://localhost:4000</uri>
+    <email>deren.eaton@yale.edu</email>
+  </author>
+  <content type="html">&lt;h1 id=&quot;example-quick-radseq-assembly-with-d-statistic-test-for-historical-introgression&quot;&gt;Example quick RADseq assembly with D-statistic test for historical introgression&lt;/h1&gt;
+
+&lt;h4 id=&quot;see-my-other-tutorials-for-a-more-detailed-step-by-step-walkthrough-of-a-pyrad-assembly&quot;&gt;See my other tutorials for a more detailed step-by-step walkthrough of a pyRAD assembly.&lt;/h4&gt;
+
+&lt;h4 id=&quot;first-download-and-unarchive-the-example-data-set-which-is-in-a-directory-named-radexample&quot;&gt;First download and unarchive the example data set which is in a directory named RAD_example/.&lt;/h4&gt;
+
+&lt;p&gt;The short link below is to the example RADseq data set also available at
+http://dereneaton.com/software, but you can download and unarchive it by
+executing the cell below in a command line shell. Throughout this notebook the
+text in all cells should be executed in the command line, except for the header
+(%%bash), which is simply there to indicate the type of code.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;    %%bash
+    wget http://goo.gl/oyIefB 2&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&amp;gt; /dev/null
+    unzip oyIefB
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;pre&gt;&lt;code&gt;Archive:  oyIefB
+   creating: RAD_example/
+  inflating: RAD_example/simRADs.fastq
+  inflating: RAD_example/D4.input.txt
+  inflating: RAD_example/simRADs.barcodes
+  inflating: RAD_example/params.txt
+  inflating: RAD_example/D5.input.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;look-at-the-first-few-lines-of-the-paramstxt-file&quot;&gt;Look at the first few lines of the params.txt file&lt;/h4&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;    %%bash
+    head -n15 RAD_example/params.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;pre&gt;&lt;code&gt;@@################        pyRAD input file, version 1.64      ###############@@
+./                                      ## 1. Working directory
+&lt;/code&gt;&lt;/pre&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/web/2014-04-12-posting-with-ipython-notebook/&quot;&gt;Posting with ipython notebook&lt;/a&gt; was originally published by Deren Eaton at &lt;a href=&quot;http://localhost:4000&quot;&gt;Deren Eaton&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Inferring branch lengths on a fixed topology in BEAST2]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/phylogenetics/2014-04-15-inferring-branch-lengths-on-a-fixed-topology-in-beast2/" />
+  <id>http://localhost:4000/phylogenetics/2014-04-15-inferring-branch-lengths-on-a-fixed-topology-in-beast2</id>
+  <published>2014-04-15T16:51:21-04:00</published>
+  <updated>2014-04-15T16:51:21-04:00</updated>
+  <author>
+    <name>Deren Eaton</name>
+    <uri>http://localhost:4000</uri>
+    <email>deren.eaton@yale.edu</email>
+  </author>
+  <content type="html">&lt;h2 id=&quot;this-post-is-coming-soon&quot;&gt;this post is coming soon&lt;/h2&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/phylogenetics/2014-04-15-inferring-branch-lengths-on-a-fixed-topology-in-beast2/&quot;&gt;Inferring branch lengths on a fixed topology in BEAST2&lt;/a&gt; was originally published by Deren Eaton at &lt;a href=&quot;http://localhost:4000&quot;&gt;Deren Eaton&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[New static Jekyll website]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/web/new-jekyll-website/" />
+  <id>http://localhost:4000/web/new-jekyll-website</id>
+  <published>2014-04-11T00:00:00-04:00</published>
+  <updated>2014-04-11T00:00:00-04:00</updated>
+  <author>
+    <name>Deren Eaton</name>
+    <uri>http://localhost:4000</uri>
+    <email>deren.eaton@yale.edu</email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;what-is-jekyll-and-why-use-it&quot;&gt;What is jekyll and why use it?&lt;/h3&gt;
+&lt;p&gt;Welcome to www.dereneaton.github.io, my new static Jekyll website. &lt;a href=&quot;http://www.jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a Ruby parsing engine that converts plain text into static webpages. This allows you to write blog post using markdown, to easily embed code, and easily design webpages using custom templates. Here I am using the &lt;a href=&quot;http://mademistakes.com/articles/minimal-mistakes-jekyll-theme/&quot;&gt;&lt;em&gt;Minimal Mistakes&lt;/em&gt;&lt;/a&gt; theme. The best part is that GitHub offers a free web hosting service powered by Jekyll, meaning you can host your site on github and make changes to it with version control. I considered alternative static page generators, particularly those written in Python like Pelican and Nikola, but even comparing the example pages available makes clear that, at least in terms of theme development, or refinement, Jekyll is miles ahead. &lt;/p&gt;
+
+&lt;h3 id=&quot;creating-this-website&quot;&gt;Creating this website&lt;/h3&gt;
+&lt;p&gt;I followed the instructions here (&lt;a href=&quot;http://mademistakes.com/articles/minimal-mistakes-jekyll-theme/&quot;&gt;&lt;em&gt;MinimalMistakes&lt;/em&gt;&lt;/a&gt;) to create my site, which was as easy as cloning a git repository, editing a few markdown files in a text editor, and pushing the changes to a git repository. I was then able to transfer the host name of my old site to this one by simply editing the text file “xxx” and entering my site name: www.dereneaton.com. &lt;/p&gt;
+
+&lt;p&gt;In terms of creating download links, posting blog entries, and generally designing the site in a way I find pleasing, I find Jekyll to be extraordinarily more intuitive to use than WordPress. Hopefully this is useful to others interested in setting up a simple static blog/website. &lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/web/new-jekyll-website/&quot;&gt;New static Jekyll website&lt;/a&gt; was originally published by Deren Eaton at &lt;a href=&quot;http://localhost:4000&quot;&gt;Deren Eaton&lt;/a&gt; on April 11, 2014.&lt;/p&gt;</content>
+</entry>
+
+</feed>
