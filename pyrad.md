@@ -48,5 +48,5 @@ __previous stable releases:__
 [pyrad_v.2.01.zip](/downloads/pyrad_v.2.01.zip)  
 [pyrad_v.2.00.zip](/downloads/pyrad_v.2.0.zip)  
 [pyrad_v.1.64.zip](/downloads/pyrad_v.1.64.zip)  
-[pyrad_tutorial_v.1.64.pdf](/downloads/pyrad_v.1.64.zip)  
+[pyrad_tutorial_v.1.64.pdf](/downloads/pyrad_v.1.64.pdf)  
 [pyrad_v.1.4.zip](/downloads/pyrad_v.1.4.zip)  
