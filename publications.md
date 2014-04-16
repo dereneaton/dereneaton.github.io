@@ -17,7 +17,7 @@ __2014__
 * Hipp, A., __Eaton, D.A.R.__, Cavender-Bares, J., Fitzek, E., Nipper, R. and P.S. Manos. _A framework phylogeny of the American oak clade based on sequenced RAD data_. PLoS ONE 9(4): e93975
 DOI: 10.1371/journal.pone.0093975 (open access [link](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0093975))
 
-* __Eaton, D.A.R.__ _PyRAD: assembly of de novo RADseq loci for phylogenetic analyses._ Bioinformatics. doi: 10.1093/bioinformatics/btu121. ([preprint](http://biorxiv.org/content/early/2013/12/03/001081)), ([link](http://bioinformatics.oxfordjournals.org/content/early/2014/03/20/bioinformatics.btu121)), ([reproducible notebook](http://nbviewer.ipython.org/gist/dereneaton/9567786f0150354dd0c3))
+* __Eaton, D.A.R.__ _PyRAD: assembly of de novo RADseq loci for phylogenetic analyses._ Bioinformatics. doi: 10.1093/bioinformatics/btu121. ([preprint](http://biorxiv.org/content/early/2013/12/03/001081)), ([link](http://bioinformatics.oxfordjournals.org/content/early/2014/03/20/bioinformatics.btu121)), ([reproducible science: [files](http://bioinformatics.oxfordjournals.org/content/suppl/2014/03/05/btu121.DC1), [notebook](http://nbviewer.ipython.org/gist/dereneaton/9567786f0150354dd0c3))
 
 
 -----------------  
