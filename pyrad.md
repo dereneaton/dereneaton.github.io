@@ -13,7 +13,7 @@ share:
 
 ---------------------   
 
-## Description
+#### Description
 
 The benefit of _pyRAD_ over some alternative methods for analyzing RADseq-like data comes in its use of an alignment-clustering method (_usearch_) that allows for the inclusion of indel variation which improves identification of homology across highly divergent samples. For this reason _pyRAD_ is commonly employed for RADseq studies at deeper phylogenetic scales, however, it works equally well at shallow scales.  
 
@@ -27,9 +27,9 @@ Below you can find the current release, as well as older versions. There is a â€
 ## Current stable release download:  
 
 +  [pyRAD_v.2.01.zip](/downloads/pyrad_v.2.01.zip)
-+  pyRAD_v.2.0 Tutorial: ([web](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0)) (pdf)
++  pyRAD_v.2.0x Tutorial: ([web](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0)) (pdf)
 
-### Example data set notebooks (v.2.0):  
+### Example data set notebooks (v.2.0+):  
 +  [RADseq tutorial](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc)  
 +  [paired-end ddRAD tutorial](http://nbviewer.ipython.org/gist/dereneaton/c18bff4ba8bf532ec14b)  
 +  ddRAD tutorial
