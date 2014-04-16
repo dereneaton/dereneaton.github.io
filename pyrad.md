@@ -17,7 +17,9 @@ share:
 
 The benefit of _pyRAD_ over alternative methods for analyzing RADseq-like data comes in its use of an alignment-clustering method (_usearch_) that allows for the inclusion of indel variation, and thus improves identification of homology across highly divergent samples. For this reason _pyRAD_ is commonly employed for RADseq studies at deeper phylogenetic scales, however, it will work equally well at shallow scales.  
 
+
 _pyRAD_ can analyze RAD, ddRAD, GBS, paired-end ddRAD and paired-end GBS data sets. A two-step clustering method makes clustering even very large data sets with hundreds of samples feasible and fast, and a “split clustering” method for paired-end ddRAD data dramatically speeds assembly of paired loci.  
+
 
 Below you can find the current release, as well as older versions. There is a “general use” tutorial which explains how to install and setup input files, as well as specific tutorials with example data for different data types and analyses. The software is also described in the following publication ([preprint](http://biorxiv.org/content/early/2013/12/03/001081), [journal](http://bioinformatics.oxfordjournals.org/content/early/2014/03/20/bioinformatics.btu121 ))  
 
