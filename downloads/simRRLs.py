@@ -257,7 +257,7 @@ def dressitup(D, Barcodes, sitemut, indel, locuslength, divis, addon, frags):
                     eL1 = ("A"*30)+Illumina_P1_adapter+Barcodes[samp]+CUT1+"".join(eL)+revcomp(CUT1)+Illumina_P2_adapter+"A"*30
 
                 if datatype in ['gbs']:
-                    eL2 = ("A"*30)+Illumina_P1_adapter+Barcodes[samp]+CUT1+revcomp("".join(eL))+revcomop(CUT1)+Illumina_P2_adapter+"A"*30
+                    eL2 = ("A"*30)+Illumina_P1_adapter+Barcodes[samp]+CUT1+revcomp("".join(eL))+revcomp(CUT1)+Illumina_P2_adapter+"A"*30
                     
                 " sequence read1 from 5' end "
                 startL = eL1.index("CGATCT")
