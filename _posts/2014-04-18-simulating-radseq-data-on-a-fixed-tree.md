@@ -105,8 +105,8 @@ Remember time is counted backwards from the present (coalescent),
 so migration is zero at time=0, then is starts at time=0.5,
 and we set gene flow back to zero at time=1.0. 
 
-~~~python 
+{% highlight python linenos %}
 paramSet.changePairwiseMigrationRate(0.5, 2, 3, 4*N*0.001)
 paramSet.changePairwiseMigrationRate(1.0, 2, 3, 0.0)
-~~~
+{% endhighlight %}
 
