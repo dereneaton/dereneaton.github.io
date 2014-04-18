@@ -51,7 +51,7 @@ links:
 
 comments:
   provider: disqus
-  discus :
+  disqus:
     short_name: daeaton
 
 
