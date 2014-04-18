@@ -17,7 +17,7 @@ simulating missing data, indels and different levels of divergence between taxa.
 
 ### Download: [_simRRLs.py_](/downloads/simRRLs.py)
 
-### Example usage: [_link_](/phylogenetics/2014-04-15-simulating-radseq-data-on-a-fixed-tree/)
+### Example usage: [_link_](/phylogenetics/2014-04-18-simulating-radseq-data-on-a-fixed-tree/)
 
 
 
