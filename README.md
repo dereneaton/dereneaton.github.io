@@ -1,2 +1,1 @@
-dereneaton.github.io
-====================
+Jekyll webpage. Under development. Minimal Mistakes Theme.
