@@ -112,16 +112,12 @@ mutator = egglib.simul.CoalesceFiniteAlleleMutator(theta=theta,
 mutator.setSites(locuslength)
 
 
-
-
-
 def twodiffs(a,b):
     "requires two base differences between barcodes"
     if len(a) == len(b):
         t = [a[i]==b[i] for i in range(len(a))]
-        if t.count(False) >= 2:
+        if t.count(False) > 1:
             return True
-    return True
 
 
 def barcoder(aligns, Ninds, tiptax, outgroup, outhandle, Barcodes):
@@ -155,11 +151,11 @@ def barcoder(aligns, Ninds, tiptax, outgroup, outhandle, Barcodes):
 
     " barcodes to append to start of loci "
     bases = list("ATGC")
-    if Barcodes == {}:
+    if not Barcodes:
         print "creating new barcode map"
+        Barcodes[names[0]] = "CATCAT"
         for name in names:
-            Barcodes[name] = []
-            while Barcodes[name] == []:
+            while name not in Barcodes.keys():
                 bbs = numpy.random.randint(0,3,6)
                 bar = "".join([bases[i] for i in bbs])
                 if all([twodiffs(bar,bb) for bb in Barcodes.values()]):
@@ -167,7 +163,9 @@ def barcoder(aligns, Ninds, tiptax, outgroup, outhandle, Barcodes):
                         Barcodes[name] = bar
         " creates random barcodes and writes map to file "
         with open(outhandle+".barcodes",'w') as barout:
-            for bar in Barcodes:
+            bnames = list(Barcodes.keys())
+            bnames.sort()
+            for bar in bnames:
                 if outgroup not in bar:
                     print >>barout, "\t".join([bar,Barcodes[bar]])
     return D,Barcodes
