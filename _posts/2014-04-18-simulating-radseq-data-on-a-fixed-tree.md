@@ -83,9 +83,9 @@ preparation methods have restriction sites on both ends of sequences, and thus g
 probability (assuming cut sites occur with equal frequency) of locus dropout. 
 
 #### Calling the script
-~~~bash
+{% highlight python linenos %}
 python simRRLs.py 0 0.1 10 400,800 rad 1 simrads
-~~~
+{% endhighlight %}
 
 #### Output
 Two data files are created, for our example these are `simrads.fastq.gz` and `simrads.barcodes`.
