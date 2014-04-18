@@ -17,7 +17,7 @@ share:
 ---------------------  
 
 ### Download the script
-+ [simRRLs.py](/downloads/simRLLs.py)
++ [simRRLs.py](/downloads/simRRLs.py)
 
 --------------------  
 
