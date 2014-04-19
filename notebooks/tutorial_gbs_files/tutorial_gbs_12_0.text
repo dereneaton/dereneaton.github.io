@@ -1,0 +1,42 @@
+@@&&###########     pyRAD input file, version 1.70    ##############&&@@
+./                          ## 1. Working directory
+./*.fastq.gz                ## 2. Loc. of non-demultiplexed files (if not line 18)
+./*.barcodes                ## 3. Loc. of barcode file (if not line 18)
+usearch7.0.1090_i86linux32  ## 4. command (or path) to call usearch v.7 
+muscle                      ## 5. command (or path) to call muscle
+TGCAG                       ## 6. recognition site/s (e.g., C|TGCAG -> TGCAG)
+2                           ## 7. N processors to use in parallel
+6                           ## 8. Mindepth: minimum depth of coverage for a cluster
+4                           ## 9. NQual: max # lowqual sites in read (minQ on line 20)
+.90                         ## 10. Wclust: clustering threshold as a decimal
+rad                         ## 11. Datatype: rad,gbs,ddrad,pairgbs,pairddrad,nextrad 
+4                           ## 12. MinCov: min samples in a final locus 
+3                           ## 13. MaxSharedH: exclude loci w/ H shared in >N samples
+c90d6m4p3                   ## 14. prefix name for final output (no spaces)
+==========================================================================================
+                       ## 15.optional: only execute on subset (prefix name) of samples
+                       ## 16.optional: add-on (outgroup) taxa, ( ',' separated -no spaces)
+                       ## 17.optional: exclude taxa (',' separated -no spaces), only step 7
+                       ## 18.optional: Loc. of de-multiplexed data (for step 2)
+                       ## 19.optional: maxM: mismatches in barcode during sorting (def. 1)
+                       ## 20.optional: MinQ: Phred Quality score after offset (def. 20)
+                       ## 21.optional: Filter: def=0=NQual. 1=NQual+adapters. 2=1+strict
+                       ## 22.optional: a priori E,H (def. 0.001,0.01, if not estimated)
+                       ## 23.optional: maxN: Ns in a consensus seq (def. 4)
+                       ## 24.optional: maxH: heterozygous sites in consensus seq (def. 4)
+                       ## 25.optional: maxHaplos: max alleles in a consens seqs (def.=2)
+                       ## 26.optional: maxSNPs: step 7. (def=100). Paired (def=100,100)
+                       ## 27.optional: maxIndels: in within-sample clusters (def. 3)
+                       ## 28.optional: random number seed (default 112233)
+                       ## 29.optional: overhang left or right of final loc (1,1) def=0,0
+                       ## 30.optional: add output formats: a,n,s,u (see documentation)
+==========================================================================================
+                       ## 31.optional: clustprefix for hierarchical clustering (ex: a,b,c)
+                       ## 32.optional: min hits for each clustprefix (ex: 4,4,4)
+==========================================================================================
+                       ## 33.optional: call maj. consens if depth < stat. limit (def. 0)
+                       ## 34.optional: merge/remove pair overlap (def 0) enter min overlap
+                       ## 35.optional: keep short fragment reads (def=0). Enter min length.
+                       ## 36.optional: max stack size (int), def= max(500,mean+2*SD)
+                       ## 37.optional: minDerep: exclude dereps with <= N copies, def=0
+

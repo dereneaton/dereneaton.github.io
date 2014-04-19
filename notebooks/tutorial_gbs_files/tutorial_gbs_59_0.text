@@ -1,0 +1,54 @@
+
+
+1000        ## total loci across all samples
+1000        ## loci with > minsp containing data
+1000        ## loci with > minsp containing data & paralogs removed
+1000        ## loci with > minsp containing data & paralogs removed & final filtering
+
+## number of loci recovered in final data set for each taxon.
+taxon	nloci
+1A0	1000
+1B0	1000
+1C0	1000
+1D0	1000
+2E0	1000
+2F0	1000
+2G0	1000
+2H0	1000
+3I0	1000
+3J0	1000
+3K0	1000
+3L0	1000
+
+
+## nloci = number of loci with data for exactly ntaxa
+## ntotal = number of loci for which at least ntaxa have data
+ntaxa	nloci	saved	ntotal
+1	0
+2	0		-
+3	0		-
+4	0	*	1000
+5	0	*	1000
+6	0	*	1000
+7	0	*	1000
+8	0	*	1000
+9	0	*	1000
+10	0	*	1000
+11	0	*	1000
+12	1000	*	1000
+
+
+## var = number of loci containing n variable sites.
+## pis = number of loci containing n parsimony informative sites.
+n	var	PIS
+0	74	289
+1	539	375
+2	465	210
+3	309	93
+4	176	23
+5	83	9
+6	38	1
+7	22	0
+8	5	0
+total var= 3937
+total pis= 1217

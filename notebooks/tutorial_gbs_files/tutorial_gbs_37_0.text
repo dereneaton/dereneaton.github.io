@@ -1,0 +1,63 @@
+
+
+     ------------------------------------------------------------
+      pyRAD : RADseq for phylogenetics & introgression analyses
+     ------------------------------------------------------------
+
+
+	de-replicating files for clustering...
+
+	step 3: within-sample clustering of 12 samples at '.85' similarity using up to 2 processors
+/home/deren/Dropbox/Public/PYRAD_TUTORIALS/tutorial_GBS/edits/1A0.edit clustering
+usearch7.0.1090_i86linux32 -cluster_smallmem /home/deren/Dropbox/Public/PYRAD_TUTORIALS/tutorial_GBS/edits/1A0.derep -strand both  -query_cov .40  -id .85 -userout /home/deren/Dropbox/Public/PYRAD_TUTORIALS/tutorial_GBS/clust.85/1A0.u -userfields query+target+id+gaps+qstrand+qcov -maxaccepts 1 -maxrejects 0 -minsl 0.5 -fulldp -usersort  -notmatched /home/deren/Dropbox/Public/PYRAD_TUTORIALS/tutorial_GBS/clust.85/1A0._temp -quiet
+/home/deren/Dropbox/Public/PYRAD_TUTORIALS/tutorial_GBS/edits/2G0.edit clustering
+usearch7.0.1090_i86linux32 -cluster_smallmem /home/deren/Dropbox/Public/PYRAD_TUTORIALS/tutorial_GBS/edits/2G0.derep -strand both  -query_cov .40  -id .85 -userout /home/deren/Dropbox/Public/PYRAD_TUTORIALS/tutorial_GBS/clust.85/2G0.u -userfields query+target+id+gaps+qstrand+qcov -maxaccepts 1 -maxrejects 0 -minsl 0.5 -fulldp -usersort  -notmatched /home/deren/Dropbox/Public/PYRAD_TUTORIALS/tutorial_GBS/clust.85/2G0._temp -quiet
+^CProcess Worker-2:
+Process Worker-1:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/deren/pyrad_v.1.70/potpour.py", line 30, in run
+    res = self.func(*job)
+  File "/home/deren/pyrad_v.1.70/cluster7dp.py", line 442, in final
+Traceback (most recent call last):
+  File "/home/deren/pyrad_v.1.70/pyRAD", line 383, in <module>
+    main()
+  File "/home/deren/pyrad_v.1.70/pyRAD", line 249, in main
+    complementmatch, minuniq)
+    fullcluster(UCLUST, outfolder, handle, wclust, Parallel, datatype, fileno, complementmatch)
+  File "/home/deren/pyrad_v.1.70/cluster7dp.py", line 540, in main
+  File "/home/deren/pyrad_v.1.70/cluster7dp.py", line 188, in fullcluster
+    subprocess.call(cmd, shell=True)
+  File "/usr/lib/python2.7/subprocess.py", line 524, in call
+    j.join()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 145, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python2.7/multiprocessing/forking.py", line 154, in wait
+    self.run()
+  File "/home/deren/pyrad_v.1.70/potpour.py", line 30, in run
+    res = self.func(*job)
+  File "/home/deren/pyrad_v.1.70/cluster7dp.py", line 442, in final
+    return self.poll(0)
+  File "/usr/lib/python2.7/multiprocessing/forking.py", line 135, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+    fullcluster(UCLUST, outfolder, handle, wclust, Parallel, datatype, fileno, complementmatch)
+KeyboardInterrupt  File "/home/deren/pyrad_v.1.70/cluster7dp.py", line 188, in fullcluster
+
+    subprocess.call(cmd, shell=True)
+  File "/usr/lib/python2.7/subprocess.py", line 524, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 1357, in wait
+    pid, sts = _eintr_retry_call(os.waitpid, self.pid, 0)
+  File "/usr/lib/python2.7/subprocess.py", line 478, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 1357, in wait
+    pid, sts = _eintr_retry_call(os.waitpid, self.pid, 0)
+  File "/usr/lib/python2.7/subprocess.py", line 478, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt
+

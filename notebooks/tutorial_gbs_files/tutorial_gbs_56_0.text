@@ -1,0 +1,15 @@
+
+
+      ------------------------------------------------------------------
+          pyRAD : RAD/GBS for phylogenetics & introgression analyses
+      ------------------------------------------------------------------
+
+	ingroup 1A0,1B0,1C0,1D0,2E0,2F0,2G0,2H0,3I0,3J0,3K0,3L0
+	addon 
+	exclude 
+	...
+	final stats written to:
+	 /home/deren/Dropbox/Public/PYRAD_TUTORIALS/tutorial_RAD/stats/c85m4p3.stats
+	output files written to:
+	 /home/deren/Dropbox/Public/PYRAD_TUTORIALS/tutorial_RAD/outfiles/ directory
+

@@ -1,0 +1,9 @@
+
+
+     ------------------------------------------------------------
+      pyRAD : RADseq for phylogenetics & introgression analyses
+     ------------------------------------------------------------
+
+
+	step 1: sorting reads by barcode
+ ./home/deren/Dropbox/Public/PYRAD_TUTORIALS/tutorial_GBS/fastq/.simGBS_001.fastq.gz.pickle

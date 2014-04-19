@@ -1,0 +1,21 @@
+file    	Nreads	cut_found	bar_matched
+simGBS_001.fastq.gz	480000	480000	480000
+
+total_kept_reads = 480000
+
+
+sample	true_bar	obs_bars	N_obs
+2E0    	AGAGAA    	AGAGAA	40000   
+3J0    	AGGGAA    	AGGGAA	40000   
+2F0    	ATAAAT    	ATAAAT	40000   
+1D0    	ATATTT    	ATATTT	40000   
+3L0    	GGGGGA    	GGGGGA	40000   
+3I0    	GGTAGA    	GGTAGA	40000   
+2G0    	GTAGTT    	GTAGTT	40000   
+1C0    	TATGGA    	TATGGA	40000   
+1B0    	TTAAGA    	TTAAGA	40000   
+2H0    	TTAAGG    	TTAAGG	40000   
+1A0    	TTGAAT    	TTGAAT	40000   
+3K0    	TTGGGG    	TTGGGG	40000   
+
+nomatch  	_       	0

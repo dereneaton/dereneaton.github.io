@@ -1,0 +1,27 @@
+
+
+      ------------------------------------------------------------------
+          pyRAD : RAD/GBS for phylogenetics & introgression analyses
+      ------------------------------------------------------------------
+
+
+	step 6: clustering across 12 samples at '.85' similarity 
+
+usearch v7.0.1090_i86linux32, 4.0Gb RAM (7.9Gb total), 4 cores
+(C) Copyright 2013 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+Licensed to: daeaton.chicago@gmail.com
+
+00:00  21Mb    0.1% 0 clusters, max size 0, avg 0.000:01  28Mb    6.8% 568 clusters, max size 5, avg 1.400:02  28Mb   15.5% 851 clusters, max size 6, avg 2.200:03  28Mb   63.6% 1000 clusters, max size 12, avg 7.600:03  28Mb  100.0% 1000 clusters, max size 12, avg 12.0
+                                                        
+      Seqs  12000 (12.0k)
+  Clusters  1000
+  Max size  12
+  Avg size  12.0
+  Min size  12
+Singletons  0, 0.0% of seqs, 0.0% of clusters
+   Max mem  28Mb
+      Time  3.00s
+Throughput  4000.0 seqs/sec.
+
