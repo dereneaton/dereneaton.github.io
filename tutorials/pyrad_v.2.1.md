@@ -850,7 +850,7 @@ _________________________________
 The links below are to a number of analyses including example data sets that you
 can download and try for yourself.
 
-__Basics__:
+##### Basics:
 
 1. [Simple RADseq analysis](http://goo.gl/WT5Fhc)
 
@@ -860,7 +860,7 @@ __Basics__:
 
 4. [Simple GBS analysis]
 
-__Advanced Examples__:
+##### Advanced Examples:
 
 5. [paired ddRAD with overlap and Hierarchical clustering of many
 individuals](http://nbviewer.ipython.org/gist/dereneaton/c18bff4ba8bf532ec14b)
