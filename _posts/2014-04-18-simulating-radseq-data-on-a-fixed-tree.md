@@ -24,8 +24,8 @@ share:
 ### Background
 I originally developed this script to simulate data for bug testing _pyRAD_,
 but more recently I've used several variants of it to simulate data 
-with different amounts of divergence between samples, proportions of missing data,
-and with or without gene flow between lineages. 
+with different amounts of divergence between samples, different proportions of 
+missing data, and with or without gene flow between lineages. 
 I figured it may be useful to others so I am making 
 it available here, with some instruction.
 
@@ -51,8 +51,8 @@ _simRLLs.py_ takes seven arguments, some of which are further described below:
 #### Sequences are evolved on this 12 taxon species tree
 Ideally one would be able to pass as an argument any topology on which to evolve the sequences,
 but for now there is simply one topology hard-coded into the script. 
-This can easily be changed by editing the script.  
-The outgroup taxon "X" is not included in the output data, but is used in the simulation 
+This can easily be changed by editing the script. The outgroup taxon "X" 
+is not included in the output data, but is used in the simulation 
 to polarize mutations relative to an outgroup. 
 
 ![simtreeimage](/images/setupsims.png)
