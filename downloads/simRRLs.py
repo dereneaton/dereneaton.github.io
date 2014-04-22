@@ -1,10 +1,19 @@
+##################################################
+##  Script to simulate RADseq-like data         ##
+##  author:  Deren Eaton                        ##
+##  contact: deren.eaton@yale.edu               ##
+##  date:    4/22/14                            ##
+##  version: 1.0                                ##
+##################################################
 
+## load modules                                        
 import egglib
 import sys
 import numpy
 import gzip
 import os
 
+## load args
 indel = float(sys.argv[1])
 sitemut = int(sys.argv[2])
 nrepets = int(sys.argv[3])   ## must be multiple of 100 or 1K
@@ -13,7 +22,7 @@ frags = str(sys.argv[5])
 datatype = str(sys.argv[6])
 outhandle = str(sys.argv[7])
 
-
+## check args
 if datatype in ['rad','gbs','pairgbs','ddrad','pairddrad']:
     print '\tsimulating '+datatype+" data"
 else:
@@ -40,7 +49,7 @@ else:
     print "\tmutations in restriction site =",bool(sitemut)
 print "\tsequencing error rate = 0.0005"
 
-    
+## fixed args    
 copies  = 20
 locuslength = 1000
 N = 50000
@@ -72,19 +81,20 @@ A=B=C=D=E=F=G=H=I=J=K=L=X=Ninds   ## number of diploid individuals to sample
 "tree = (((((A,B),C),D),(((E,F),G),H)),(((I,J),K),L))"
 newick = "(((((A:2,B:2):2,C:4):4,D:8):4,(((E:2,F:2):2,G:4):4,H:8):4):4,(((I:2,J:2):2,K:4):4,L:8):8,X:16):16;"
 
-nodeABCDEFGHIJKLX  = 4.
-nodeABCDEFGHIJKL   = 4.
-nodeABCDEFGH       = 3.
-nodeIJKL           = 2.
-nodeEFGH           = 2.
-nodeABCD           = 2.
-nodeIJK            = 1.
-nodeEFG            = 1.
-nodeABC            = 1.
-nodeIJ             = 0.5
-nodeEF             = 0.5
-nodeAB             = 0.5
+divscale=1.0
 
+nodeABCDEFGHIJKLX  = 4.*divscale
+nodeABCDEFGHIJKL   = 4.*divscale
+nodeABCDEFGH       = 3.*divscale
+nodeIJKL           = 2.*divscale
+nodeEFGH           = 2.*divscale
+nodeABCD           = 2.*divscale
+nodeIJK            = 1.*divscale
+nodeEFG            = 1.*divscale
+nodeABC            = 1.*divscale
+nodeIJ             = 0.5*divscale
+nodeEF             = 0.5*divscale
+nodeAB             = 0.5*divscale
 
 # sets the two parameter classes
 paramSet = egglib.simul.CoalesceParamSet(singleSamples=None, doubleSamples=[A,B,C,D,E,F,G,H,I,J,K,L,X],M=0.0)
