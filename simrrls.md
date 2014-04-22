@@ -15,7 +15,8 @@ The script _simRRLs.py_ can be used to simulate RADseq-like sequences on a fixed
 tree under a coalescent model. See _Example usage_ page for advanced options, including
 simulating missing data, indels and different levels of divergence between taxa. 
 
-### Download: [_simRRLs.py_](/downloads/simRRLs.py)
+### Download:  
++ [_simRRLs.py_](/downloads/simRRLs.py) (version 1.0)
 
 ### Example usage: [_link_](/phylogenetics/simulating-radseq-data-on-a-fixed-tree/)
 
