@@ -225,12 +225,14 @@ def dressitup(D, Barcodes, sitemut, indel, locuslength, divis, addon, frags):
             use both chromosomes """
             if sitemut:
                 " remove loci if mutation arises in restriction site"
-                dropout = len(CUT+1)
+                #dropout = len(CUT+1)
+                dropout = sitemut
                 L1 = [list(D[samp][loc][0]) for copy in range(copies/2) if D[samp][loc][0][0:dropout] == D['4X0'][loc][0][0:dropout]] 
                 L2 = [list(D[samp][loc][1]) for copy in range(copies/2) if D[samp][loc][0][0:dropout] == D['4X0'][loc][0][0:dropout]] 
                 if datatype not in ['rad']:
                     "if double digested (ddrad/gbs) check other end for locus dropout "
-                    dropout2 = -len(CUT2)-1
+                    #dropout2 = -len(CUT2)-1
+                    dropout2 = -1*sitemut
                     L1 = [list(D[samp][loc][0]) for copy in range(copies/2) if D[samp][loc][0][dropout2:] == D['4X0'][loc][0][dropout2:]] 
                     L2 = [list(D[samp][loc][1]) for copy in range(copies/2) if D[samp][loc][0][dropout2:] == D['4X0'][loc][0][dropout2:]]
             else:
