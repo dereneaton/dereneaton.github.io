@@ -31,10 +31,11 @@ Below you can find the current release, as well as older versions. There is a â€
 
 ### Example data set notebooks (v.2.0+):  
 +  [RADseq tutorial](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc)  
-+  [paired-end ddRAD tutorial](http://nbviewer.ipython.org/gist/dereneaton/c18bff4ba8bf532ec14b) +  [GBS tutorial](http://nbviewer.ipython.org/gist/dereneaton/9d12ff5ab6584c5ceafa)
++  [paired-end ddRAD tutorial](http://nbviewer.ipython.org/gist/dereneaton/c18bff4ba8bf532ec14b)  
++  [GBS tutorial](http://nbviewer.ipython.org/gist/dereneaton/9d12ff5ab6584c5ceafa)
 +  ddRAD tutorial
 
-+  D-statistic test tutorial
++  D-statistic tests tutorial
 
 --------------------------  
 
