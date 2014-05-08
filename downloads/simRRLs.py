@@ -2,9 +2,16 @@
 ##  Script to simulate RADseq-like data         ##
 ##  author:  Deren Eaton                        ##
 ##  contact: deren.eaton@yale.edu               ##
-##  date:    4/22/14                            ##
-##  version: 1.01                               ##
+##  date:    5/8/14                             ##
+##  version: 1.02                               ##
 ##################################################
+
+##################################################
+##  change log
+##  1.02: - dropout is only affected by arg 2 not data type
+##  1.01: - barcodes differ by 2 bp by default
+##################################################
+
 
 ## load modules                                        
 import egglib
@@ -316,9 +323,9 @@ print '\t',
 D = []
 Barcodes = {}
 
-out1 = gzip.open(outhandle+"_R1_001.fastq.gz",'wb')
+out1 = gzip.open(outhandle+"_R1.fastq.gz",'wb')
 if datatype in ['pairddrad','pairgbs']:
-    out2 = gzip.open(outhandle+"_R2_001.fastq.gz",'wb')
+    out2 = gzip.open(outhandle+"_R2.fastq.gz",'wb')
 
 if datatype in ['gbs']:
     nrepets = nrepets/2  # because forward and reverse sequenced
