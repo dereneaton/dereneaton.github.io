@@ -26,8 +26,8 @@ Below you can find the current release, as well as older versions. There is a â€
 
 ## Current stable release download:  
 
-+  [pyRAD_v.2.01.zip](/downloads/pyrad_v.2.01.zip)
-+  [Tutorial_pyRAD_v.2.1](/tutorial/pyrad_v.2.1/)
++  [pyRAD_v.2.10.zip](/downloads/pyrad_v.2.10.zip)
++  [Tutorial_pyRAD_v.2.01+](/tutorial/pyrad_v.2.1/)
 
 ### Example data set notebooks (v.2.0+):  
 +  [RADseq tutorial](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc)  
