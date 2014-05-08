@@ -85,7 +85,7 @@ probability (assuming cut sites occur with equal frequency) of locus dropout. Th
 
 #### Calling the script
 {% highlight python linenos %}
-python simRRLs.py 0 0.1 10 400,800 rad simrads
+python simRRLs.py 0 0.1 1000 10 400,800 rad simrads
 {% endhighlight %}
 
 #### Output
