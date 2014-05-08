@@ -856,16 +856,17 @@ can download and try for yourself.
 
 2. [Simple paired ddRAD analysis](http://goo.gl/gB8Zq9)
 
-3. [Simple ddRAD analysis]
+3. [Simple GBS analysis]
 
-4. [Simple GBS analysis]
+4. [Simple ddRAD analysis]
+
 
 ##### Advanced Examples:
 
 5. [paired ddRAD with overlap and Hierarchical clustering of many
 individuals](http://nbviewer.ipython.org/gist/dereneaton/c18bff4ba8bf532ec14b)
 
-6. [GBS analysis with short fragment rescue (poor size selection)]
+6. [GBS analysis with short fragment rescue (poor size selection)](http://nbviewer.ipython.org/gist/dereneaton/9d12ff5ab6584c5ceafa)  
 
 7. [D-statistic tests for introgression]
 
