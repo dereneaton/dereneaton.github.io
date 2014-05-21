@@ -17,7 +17,8 @@ Nloci = int(float(sys.argv[1]))
 locuslength = int(float(sys.argv[2]))
 N = int(float(sys.argv[3]))
 tree = str(sys.argv[4])
-migration = str(sys.argv[5])
+try: migration = str(sys.argv[5])
+except IndexError: migration = ""
 
 ## split multiple migrations
 migscenarios = [m.lstrip("[").rstrip("]") for m in migration.split('/')]
@@ -92,14 +93,15 @@ else:
 
 
 ## sets migration patterns 
-for mig in migscenarios:
-    p2,p3,s,e,m = mig.split(',')
-    p2 = tiptax.index(p2)
-    p3 = tiptax.index(p3)
-    M = 4.*N*float(m)
-    paramSet.changePairwiseMigrationRate(0.0, int(p2), int(p3), 0.)
-    paramSet.changePairwiseMigrationRate(float(s), int(p2), int(p3), float(M))
-    paramSet.changePairwiseMigrationRate(float(e), int(p2), int(p3), 0.)
+if migration:
+    for mig in migscenarios:
+        p2,p3,s,e,m = mig.split(',')
+        p2 = tiptax.index(p2)
+        p3 = tiptax.index(p3)
+        M = 4.*N*float(m)
+        paramSet.changePairwiseMigrationRate(0.0, int(p2), int(p3), 0.)
+        paramSet.changePairwiseMigrationRate(float(s), int(p2), int(p3), float(M))
+        paramSet.changePairwiseMigrationRate(float(e), int(p2), int(p3), 0.)
 
 mutator = egglib.simul.CoalesceFiniteAlleleMutator(theta=theta,
                                                    alleles= 4,

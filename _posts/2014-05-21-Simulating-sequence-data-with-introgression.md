@@ -49,6 +49,8 @@ python simLoci.py 10000 100 1e6 $tree1 [C,D,0.20,0.25,2.5e-7]/[C,F,0.20,0.25,2.5
 
 This would simulate 10K loci each 100bp in length on the input tree topology. It will allow 1 migrant per generation (4∗ 1e6 ∗ 2.5e−7=1) for 50K generations (0.05 ∗ 1e6=50K), for a total of 50K migrants into a population size of 1M.
 
+
+## Example output
 {% highlight bash %}
 >A         GAAGACCTATACGAATCTCCAAATATGGTGGATCACCACCGCCCCCCCAAAAGGGAAATGTCATCCACTACCCGACAGATGTAGGATAAAGCTACTCGTG
 >B         GAAGACCTATACGAATCTCCAATTATGGTGGATCACCACCGCCCCCCCAAAAGGGAAATGTCATCCACTACCCGACAGATGTAGGATAAAGCTACTCCTG
@@ -81,3 +83,6 @@ This would simulate 10K loci each 100bp in length on the input tree topology. It
 >I         TGCCAGTAAACGCACATTTCACGACGTGTCGTATGCAGAAGGAACGGTGATAGCTGAAGCAACTGGTTTCGTATACCAAACTCTGCAGCAAGCGTTCCTC
 //            -*                  -    *      - *  -                                    - -    *              -|
 {% endhighlight %}
+
+
+Hopefully this script will also be useful to others. I will have a follow-up post soon with some further examples and results of looking at the effects of topology and branch lengths on metrics for measuring introgression. 
