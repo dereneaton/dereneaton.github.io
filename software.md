@@ -17,6 +17,10 @@ share:
 
 Software to assemble _de novo_ RADseq loci from restriction-site associated sequence data.
 
+### [_simLoci_](/software/simLoci/)
+
+Python script to simulate sequence data on an input topology under a coalescent model with arguments to allow migration between lineages. 
+
 ### [_simRRLs_](/software/simrrls/)
 
 Python script to simulate RAD, ddRAD or GBS data on a fixed species tree under a coalescent model. 
