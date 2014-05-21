@@ -16,4 +16,4 @@ The script _simLoci.py_ can be used to simulate sequence data on an input topolo
 ### Download:  
 + [_simLoci.py_](/downloads/simLoci.py) (version 1.0)
 
-### [Example usage link](/phylogenetics/Simulating-sequence-data-with-introgression/)
+### [See example usage post](/phylogenetics/Simulating-sequence-data-with-introgression/)
