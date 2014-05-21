@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Simulating sequence data with introgression"
+description: "another Egglib script"
 modified: 2014-05-21 16:58:29 -0400
 category: phylogenetics
 tags: [popgen, phylogenetics, simulation, introgression]
@@ -11,7 +12,6 @@ image:
 comments: disqus
 share: 
 ---
-
 
 ### Background
 
