@@ -39,12 +39,12 @@ Time is in coalescent units starting at 0.0 and increasing back in time. As an e
 ### Calling the script
 {% highlight python linenos %}
 tree1="((((A:0.5,B:0.5):0.25,C:0.75):0.25,((D:0.5,E:0.5):0.25,F:0.75):0.25):2.0,((G:0.5,H:0.5):0.25,I:0.75):2.25);"
-python simLoci.py 10000 100 1e6 '$tree1' [C,D,0.20,0.25,2.5e-7]
+python simLoci.py 10000 100 1e6 $tree1 [C,D,0.20,0.25,2.5e-7]
 {% endhighlight %}
 
 Or to enter multiple introgression scenarios:
 {% highlight python linenos %}
-python simLoci.py 10000 100 1e6 '$tree1' [C,D,0.20,0.25,2.5e-7]/[C,F,0.20,0.25,2.5e-7]
+python simLoci.py 10000 100 1e6 $tree1 [C,D,0.20,0.25,2.5e-7]/[C,F,0.20,0.25,2.5e-7]
 {% endhighlight %}
 
 This would simulate 10K loci each 100bp in length on the input tree topology. It will allow 1 migrant per generation (4∗ 1e6 ∗ 2.5e−7=1) for 50K generations (0.05 ∗ 1e6=50K), for a total of 50K migrants into a population size of 1M.
