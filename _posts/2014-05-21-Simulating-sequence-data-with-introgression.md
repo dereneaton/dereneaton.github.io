@@ -34,7 +34,7 @@ The fifth argument, which is optional, lists introgression events as a string of
 4. time at which introgression ends
 5. probability (proportion) of migration (migrants)
 
-Time is in coalescent units starting at 0.0 and increasing back in time. As an example, the string [C,D,0.20,0.25,1e-6] would indicate introgression from lineage D into C for 0.05 units of time. One coalescent time unit is equal to Ne generations, and the number of migrants per generation is 4*Ne*m, where m is the last value passed in the introgression event argument. As a full example:  
+Time is in coalescent units starting at 0.0 and increasing back in time. As an example, the string [C,D,0.20,0.25,1e-6] would indicate introgression from lineage D into C for 0.05 units of time. One coalescent time unit is equal to Ne generations, and the number of migrants per generation is 4 * Ne * m, where m is the last value passed in the introgression event argument. As a full example:  
 
 ### Calling the script
 {% highlight python linenos %}
