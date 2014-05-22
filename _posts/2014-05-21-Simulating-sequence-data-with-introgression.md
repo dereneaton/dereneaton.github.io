@@ -6,7 +6,7 @@ modified: 2014-05-21 16:58:29 -0400
 category: phylogenetics
 tags: [popgen, phylogenetics, simulation, introgression]
 image:
-  feature: header.jpg
+  feature: header.png
   credit: Deren Eaton
   creditlink: 
 comments: true
