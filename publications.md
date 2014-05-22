@@ -5,7 +5,7 @@ title: "publications"
 modified: 2014-03-16 13:51
 tags: [publications]
 image:
-  feature: header.jpg
+  feature: header.png
   credit: dereneaton
   creditlink: 
 share: 

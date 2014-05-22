@@ -6,7 +6,7 @@ tagline:
 tags: [about, research]
 modified: 9-9-2013
 image:
-  feature: header.jpg
+  feature: header.png
   credit: dereneaton
   creditlink:
 share:

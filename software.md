@@ -5,7 +5,7 @@ title: "software"
 modified: 2014-03-16 13:21
 tags: [software]
 image:
-  feature: header.jpg
+  feature: header.png
   credit: Deren Eaton
   creditlink: 
 share: 
