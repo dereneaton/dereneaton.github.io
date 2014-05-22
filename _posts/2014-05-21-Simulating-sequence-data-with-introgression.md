@@ -9,11 +9,9 @@ image:
   feature: header.jpg
   credit: Deren Eaton
   creditlink: 
-comments: disqus
+comments: True
 share: 
 ---
-
-### Background
 
 In this post I want to introduce a little script I wrote recently that I think provides a fairly user-friendly approach to simulating sequence data on a given tree topology with introgression between lineages. I'm calling it [simLoci.py](/software/). It takes as input a tree topology with branch lengths as a newick string, and introgression events can be designated in a simple string of values. You can simulate any number of loci of any given length, with no recombination occuring within loci, but free recombination between them. You have to enter a coalescent population parameter (Ne), which is used to scale divergence times, where branch lengths on the tree represent Ne generations. The per-site mutation rate is fixed at 1e-9. Results are written to `stdout` in ".loci" format, which is similar to a multi-fasta format but with a line below each locus indicating the location of SNPs. This format is used by [_pyRAD_](/software/) to perform D-statistic tests to measure introgression. The ".loci" format can be easily converted to alternative formats. simLoci.py requires as dependencies the two Python packages [Egglib](http://egglib.sourceforge.net/) and [Numpy](http://www.numpy.org/). 
 
