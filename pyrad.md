@@ -46,10 +46,10 @@ Below you can find the current release, as well as older versions. There is a â€
 #### git development ([version](https://code.google.com/p/pyrad/)) and change log ([link](https://code.google.com/p/pyrad/source/list))
 
 __previous stable releases:__    
-[pyRAD_v.2.10.zip](/downloads/pyrad_v.2.10.zip)  
+[pyrad_v.2.10.zip](/downloads/pyrad_v.2.10.zip)  
 [pyrad_v.2.01 tutorial](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0)  
 [pyrad_v.2.01.zip](/downloads/pyrad_v.2.01.zip)  
 [pyrad_v.2.00.zip](/downloads/pyrad_v.2.0.zip)  
 [pyrad_v.1.64.zip](/downloads/pyrad_v.1.64.zip)  
-[pyrad_tutorial_v.1.64.pdf](/downloads/pyrad_v.1.64.pdf)  
+[pyrad\_tutorial\_v.1.64.pdf](/downloads/pyrad_v.1.64.pdf)  
 [pyrad_v.1.4.zip](/downloads/pyrad_v.1.4.zip)  
