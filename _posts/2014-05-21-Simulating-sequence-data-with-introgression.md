@@ -9,7 +9,7 @@ image:
   feature: header.jpg
   credit: Deren Eaton
   creditlink: 
-comments: True
+comments: true
 share: 
 ---
 

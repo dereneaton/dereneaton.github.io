@@ -2,6 +2,7 @@ title:            Deren Eaton
 description:      Academic Portal.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://dereneaton.github.io
+disqus_shortname: daeaton
 relative_permalinks: false
 
 # Owner/author information
@@ -49,10 +50,10 @@ links:
 #    url: www.flowerdoctor.tumblr.com
 #    external: true
 
-comments:
-  provider: disqus
-  disqus:
-    short_name: daeaton
+#comments:
+#  provider: disqus
+#  disqus:
+#    short_name: daeaton
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
