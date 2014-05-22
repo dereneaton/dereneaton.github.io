@@ -13,15 +13,12 @@ share:
 
 -------------------------  
 
-### [_pyRAD_](/software/pyrad/)
-
+### [_pyRAD_](/software/pyrad/)  
 Software to assemble _de novo_ RADseq loci from restriction-site associated sequence data.
 
-### [_simLoci_](/software/simLoci/)
+### [_simRRLs_](/software/simrrls/)  
+Python script to simulate fastQ formatted RAD, ddRAD or GBS data on a fixed species tree under a coalescent model. Generating this type of data is useful for exploring the capabilities of _pyRAD_, _STACKS_, or related programs for assembling RADseq data sets with varying amounts of divergence between lineages, and with indel variation. 
 
-Python script to simulate sequence data on an input topology under a coalescent model with arguments to allow migration between lineages. 
-
-### [_simRRLs_](/software/simrrls/)
-
-Python script to simulate RAD, ddRAD or GBS data on a fixed species tree under a coalescent model. 
+### [_simLoci_](/software/simLoci/)  
+Python script to simulate sequence data on an input topology under a coalescent model with arguments to allow migration between lineages. In contrast to _simRRLs.py_, above, this script outputs aligned loci that do not require assembling. This is useful for investigating the affects of introgression on phylogenetic inference, or for testing metrics of detecting introgression between lineages. 
 
