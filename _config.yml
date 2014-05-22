@@ -50,16 +50,12 @@ links:
 #    url: www.flowerdoctor.tumblr.com
 #    external: true
 
-#comments:
-#  provider: disqus
-#  disqus:
-#    short_name: daeaton
-
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
-pygments:    true
+#pygments:    true
+highlight: pygments
 markdown:    redcarpet
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
