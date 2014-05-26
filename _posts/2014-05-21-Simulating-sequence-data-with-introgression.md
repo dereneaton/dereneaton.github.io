@@ -6,16 +6,14 @@ modified: 2014-05-21 16:58:29 -0400
 category: phylogenetics
 tags: [popgen, phylogenetics, simulation, introgression]
 image:
-  feature: header.jpg
+  feature: header.png
   credit: Deren Eaton
   creditlink: 
-comments: disqus
-share: 
+comments: true
+share: true
 ---
 
-### Background
-
-This script was developed to investigate how different tree shapes affect our ability to detect introgression between lineages. A tree topology with branch lengths is input as a newick string, and introgression events are designated with a string of values. It can simulate any number of loci of any given length, with no recombination within loci, but free recombination between them. The coalescent population parameter Ne is taken as an argument, and branch lengths are taken as Ne generations. The per-site mutation rate is fixed at 1e-9. The results are written to `stdout` in ".loci" format, which is similar to a multi-fasta format but has a line below each locus indicating the location of SNPs. It can be easily converted to alternative formats. The script has two dependencies, the Python packages [Egglib](http://egglib.sourceforge.net/) and [Numpy](http://www.numpy.org/). 
+In this post I want to introduce a little script I wrote recently that I think provides a fairly user-friendly approach to simulating sequence data on a given tree topology with introgression between lineages. I'm calling it [simLoci.py](/software/). It takes as input a tree topology with branch lengths as a newick string, and introgression events can be designated in a simple string of values. You can simulate any number of loci of any given length, with no recombination occuring within loci, but free recombination between them. You have to enter a coalescent population parameter (Ne), which is used to scale divergence times, where branch lengths on the tree represent Ne generations. The per-site mutation rate is fixed at 1e-9. Results are written to `stdout` in ".loci" format, which is similar to a multi-fasta format but with a line below each locus indicating the location of SNPs. This format is used by [_pyRAD_](/software/) to perform D-statistic tests to measure introgression. The ".loci" format can be easily converted to alternative formats. simLoci.py requires as dependencies the two Python packages [Egglib](http://egglib.sourceforge.net/) and [Numpy](http://www.numpy.org/). 
 
 ### Input arguments
 The argument order is as follows:  
@@ -85,4 +83,4 @@ This would simulate 10K loci each 100bp in length on the input tree topology. It
 {% endhighlight %}
 
 
-Hopefully this script will also be useful to others. I will have a follow-up post soon with some further examples and results of looking at the effects of topology and branch lengths on metrics for measuring introgression. 
+Hopefully this script will also be useful to others. It's pretty fun to play around with, I've been looking, for example, at what level of migration causes alternative topologies to become better supported than the true input (species) tree. Of course it depends on the topology, and how distant the introgressing taxa are, among several other factors. I will have a follow-up post soon with further examples and a few results of some such analyses. 
