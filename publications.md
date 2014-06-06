@@ -29,7 +29,9 @@ __2013__
 
 * Xueqin, W., Lei, Z., __Eaton, D.A.R.__ & G. Zhenhua. _Identification of SNP markers for inferring phylogeny in temperate bamboos (Poaceae: Bambusoideae) using RAD tag sequencing._ Molecular Ecology Resources, 13: 938-945.
 
-* Fournier-Level A., Wilczek, A.M., Cooper, M.D., Roe, J.L, Anderson, J.A., __Eaton, D.A.R.__, Moyers, B.T., Petipas, R.H., Schaeffer, R.N., Pieper, B., Reymond, M., Koorneef, M., Welch, S.M., Remington, D.L. and J.S. Schmitt. _Paths to selection on life-history loci in different natural environments across the native range of Arabidopsis thaliana._ Molecular Ecology, 22: 3552-3566.
+* Fournier-Level A., Wilczek, A.M., Cooper, M.D., Roe, J.L, Anderson, J.A., __Eaton, D.A.R.__, Moyers, B.T., Petipas, R.H., Schaeffer, R.N., Pieper, B., Reymond, M., Koorneef, M., Welch, S.M., Remington, D.L. and J.S. Schmitt. _Paths to selection on life-history loci in different natural environments across the native range of Arabidopsis thaliana._ Molecular Ecology, 22: 3552-3566.  
+
+* Hipp, A.L, Manos, P.S., Cavender-Bares, J, __Eaton, D.A.R.__, & R. Nipper. _Using phylogenomics to infer the evolutionary history of oaks._ International Oak Journal, 24: 61-71.   
 
 
 ---------------  
