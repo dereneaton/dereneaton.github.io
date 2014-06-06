@@ -25,13 +25,16 @@ __2013__
 
 * __Eaton, D.A.R.__ and R.H. Ree. _Inferring phylogeny and introgression using genomic RADseq data: An example from flowering plants (Pedicularis: Orobanchaceae)._ Systematic Biology, 62: 689-706. ([open access link](http://sysbio.oxfordjournals.org/content/62/5/689)), ([cover image](http://sysbio.oxfordjournals.org/content/62/5.cover-expansion))  
 
-* __Eaton, D.A.R.__, Fenster, C.B., Hereford, J., Huang, S-Q. and R.H. Ree. _Floral diversity and community structure in Pedicularis (Orobanchaceae)_. Ecology, 93: S182:S194. ([pdf](/downloads/Eaton_ecology_2012.pdf)).
-
 * Xueqin, W., Lei, Z., __Eaton, D.A.R.__ & G. Zhenhua. _Identification of SNP markers for inferring phylogeny in temperate bamboos (Poaceae: Bambusoideae) using RAD tag sequencing._ Molecular Ecology Resources, 13: 938-945.
 
 * Fournier-Level A., Wilczek, A.M., Cooper, M.D., Roe, J.L, Anderson, J.A., __Eaton, D.A.R.__, Moyers, B.T., Petipas, R.H., Schaeffer, R.N., Pieper, B., Reymond, M., Koorneef, M., Welch, S.M., Remington, D.L. and J.S. Schmitt. _Paths to selection on life-history loci in different natural environments across the native range of Arabidopsis thaliana._ Molecular Ecology, 22: 3552-3566.  
 
 * Hipp, A.L, Manos, P.S., Cavender-Bares, J, __Eaton, D.A.R.__, & R. Nipper. _Using phylogenomics to infer the evolutionary history of oaks._ International Oak Journal, 24: 61-71.   
+
+----------------------   
+__2012__  
+
+* __Eaton, D.A.R.__, Fenster, C.B., Hereford, J., Huang, S-Q. and R.H. Ree. _Floral diversity and community structure in Pedicularis (Orobanchaceae)_. Ecology, 93: S182:S194. ([pdf](/downloads/Eaton_ecology_2012.pdf)).  
 
 
 ---------------  
