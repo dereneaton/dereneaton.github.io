@@ -14,6 +14,8 @@ share:
 -----------------  
 __2014__  
 
+* Escudero, M., __Eaton, D.A.R.__, Hahn, M. & A. Hipp. _Genotyping-by-sequencing as a tool for phylogenetic inference and testing historical introgression: A case study in Carex (Cyperaceae)_. Accepted _Molecular Phylogenetics and Evolution_.  
+
 * Hipp, A., __Eaton, D.A.R.__, Cavender-Bares, J., Fitzek, E., Nipper, R. and P.S. Manos. _A framework phylogeny of the American oak clade based on sequenced RAD data_. PLoS ONE 9(4): e93975.
 DOI: 10.1371/journal.pone.0093975. ([open access link](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0093975))
 
@@ -47,8 +49,6 @@ __In Prep__
 * __Eaton, D.A.R.__, Gonzalez-Rodriguez, A., Hipp, A., & J. Cavender-Bares. _Historical introgression in the American live Oaks._ In Prep.
 
 * Cavender-Bares, J., __Eaton, D.A.R.__, Gonzalez-Rodriguez, A., Hipp, A., & P. Manos. _Phylogeny and biogeography of the American live oaks (series Virentes): A genomic approach._ In Prep.
-
-* Escudero, M., __Eaton, D.A.R.__, Hahn, M. & A. Hipp. _Genotyping-by-sequencing as a tool for phylogenetic inference and testing historical introgression: A case study in Carex (Cyperaceae)_. Submitted
 
 * Weckstein, J., __Eaton, D.A.R.__, & B. Winger. _Phylogeography of a widespread Toucan (Ramphastos) species in the Amazon Basin._ In Prep
 
