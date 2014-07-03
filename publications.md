@@ -14,7 +14,7 @@ share:
 -----------------  
 __2014__  
 
-* Escudero, M., __Eaton, D.A.R.__, Hahn, M. & A. Hipp. _Genotyping-by-sequencing as a tool for phylogenetic inference and testing historical introgression: A case study in Carex (Cyperaceae)_. Accepted _Molecular Phylogenetics and Evolution_.  
+* Escudero, M., __Eaton, D.A.R.__, Hahn, M. & A. Hipp. _Genotyping-by-sequencing as a tool for phylogenetic inference and testing ancestral hybridization: A case study in Carex (Cyperaceae)_. Accepted _Molecular Phylogenetics and Evolution_.  
 
 * Hipp, A., __Eaton, D.A.R.__, Cavender-Bares, J., Fitzek, E., Nipper, R. and P.S. Manos. _A framework phylogeny of the American oak clade based on sequenced RAD data_. PLoS ONE 9(4): e93975.
 DOI: 10.1371/journal.pone.0093975. ([open access link](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0093975))
