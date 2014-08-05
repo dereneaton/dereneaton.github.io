@@ -44,7 +44,7 @@ __In Prep__
 
 * __Eaton, D.A.R.__, Huang, S-Q. and R.H. Ree. _Interspecific reproductive character displacement affects gene flow among intraspecific populations of a widespread alpine plant species._ In Prep.
 
-* __Eaton, D.A.R.__ & R.H. Ree. _Pollen-pistil relationships above and below the species-level in Pedicularis: A mechanism for speciation by uncoupling._ In Prep.
+* __Eaton, D.A.R.__, Ree, R.H. and S-Q. Huang. _Evolutionary constraint and pollen-pistil relationships above and below the species-level in Chinese Pedicularis_. In Prep.
 
 * __Eaton, D.A.R.__, Gonzalez-Rodriguez, A., Hipp, A., & J. Cavender-Bares. _Historical introgression in the American live Oaks._ In Prep.
 
