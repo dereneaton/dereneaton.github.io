@@ -42,13 +42,18 @@ __2012__
 ---------------  
 __In Prep__
 
+
+* __Eaton, D.A.R.__, Hipp, A., Gonzalez-Rodriguez, A. & J. Cavender-Bares. _Divergence, gene flow, and the nature of species in the American live oaks (series Virentes)._ In Prep.
+
+
+* Cavender-Bares, J., __Eaton, D.A.R.__, Gonzalez-Rodriguez, A., Hipp, A., & P. Manos. _Phylogeny and biogeography of the American live oaks (series Virentes): A genomic approach._ In Prep.
+
+
 * __Eaton, D.A.R.__, Huang, S-Q. and R.H. Ree. _Interspecific reproductive character displacement affects gene flow among intraspecific populations of a widespread alpine plant species._ In Prep.
+
 
 * __Eaton, D.A.R.__, Ree, R.H. and S-Q. Huang. _Evolutionary constraint and pollen-pistil relationships above and below the species-level in Chinese Pedicularis_. In Prep.
 
-* __Eaton, D.A.R.__, Gonzalez-Rodriguez, A., Hipp, A., & J. Cavender-Bares. _Historical introgression in the American live Oaks._ In Prep.
-
-* Cavender-Bares, J., __Eaton, D.A.R.__, Gonzalez-Rodriguez, A., Hipp, A., & P. Manos. _Phylogeny and biogeography of the American live oaks (series Virentes): A genomic approach._ In Prep.
 
 * Weckstein, J., __Eaton, D.A.R.__, & B. Winger. _Phylogeography of a widespread Toucan (Ramphastos) species in the Amazon Basin._ In Prep
 
