@@ -19,7 +19,7 @@ tags:
 
 ## Contents:
 
-#### [1. Why use _pyRAD_?](#1.-Why-use-pyRAD?)  
+#### [1. Why use _pyRAD_?][]  
 
 #### [2. Installation](#2.-Installation)  
 
@@ -41,7 +41,7 @@ tags:
 ----------------
 
 
-#1.-Why-use-pyRAD?
+# 1. Why use _pyRAD_? #
 
 Reduced-representation genomic sequence data (e.g., RADseq, GBS, ddRAD) are
 commonly used to study population-level research questions and consequently most
