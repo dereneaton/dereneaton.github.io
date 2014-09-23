@@ -19,7 +19,7 @@ tags:
 
 ## Contents:
 
-#### [1. Why use _pyRAD_?][]  
+#### [1. Why use _pyRAD_?]( 1. Why use _pyRAD? )  ####
 
 #### [2. Installation](#2.-Installation)  
 
