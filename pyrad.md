@@ -39,12 +39,6 @@ Below you can find the current release, as well as older versions. There is a â€
 #### Example Tutorials (v.2.16+):  
 +  [RADseq Example Tutorial](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/tutorial_RAD.ipynb)
 
-#### Example data set notebooks (v.2.10-2.15):  
-+  [RADseq tutorial v.2.10+](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/pyRAD_v.2.10.ipynb)  
-+  [paired-end ddRAD tutorial](http://nbviewer.ipython.org/gist/dereneaton/c18bff4ba8bf532ec14b)  
-+  [GBS tutorial](http://nbviewer.ipython.org/gist/dereneaton/9d12ff5ab6584c5ceafa)
-+  ddRAD tutorial
-+  D-statistic tests tutorial
 
 --------------------------  
 
@@ -52,9 +46,15 @@ Below you can find the current release, as well as older versions. There is a â€
 
 ---------------------------  
 
+__previous releases:__     
 #### Note: the old google.code git version is deprecated. Please switch to the newer version on github.
+#### Example data set notebooks (v.2.10-2.15):  
++  [RADseq tutorial v.2.10+](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/pyRAD_v.2.10.ipynb)  
++  [paired-end ddRAD tutorial](http://nbviewer.ipython.org/gist/dereneaton/c18bff4ba8bf532ec14b)  
++  [GBS tutorial](http://nbviewer.ipython.org/gist/dereneaton/9d12ff5ab6584c5ceafa)
++  ddRAD tutorial
++  D-statistic tests tutorial
 
-__previous stable releases:__     
 [Tutorial\_pyRAD\_v.2.01+ (old)](/tutorial/pyrad_v.2.1/)
 [pyrad_v.2.15.zip](/downloads/pyrad_v.2.15.zip)  
 [pyrad_v.2.14.zip](/downloads/pyrad_v.2.14.zip)  
