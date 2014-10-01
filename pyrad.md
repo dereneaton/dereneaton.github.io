@@ -24,14 +24,14 @@ _pyRAD_ can analyze RAD, ddRAD, GBS, paired-end ddRAD and paired-end GBS data se
 #### Continued development
 Below you can find the current release, as well as older versions. There is a “general use” tutorial which explains how to install and setup input files, as well as specific tutorials with example data for different data types and analyses. The software is described in the following publication ([preprint](http://biorxiv.org/content/early/2013/12/03/001081), [journal](http://bioinformatics.oxfordjournals.org/content/early/2014/03/20/bioinformatics.btu121 ))  
 
-### pyrad is now hosted on github, which the links below will redirect to
+#### Note: pyrad is now hosted on github which the links below will redirect to
 
-## Downloads
+### Downloads
 
 +  [Current stable release](https://github.com/dereneaton/pyrad/releases)
 +  [Development version](https://github.com/dereneaton/pyrad/)
 
-## General Use Tutorial
+### General Use Tutorial
 +  [Tutorial\_pyRAD\_v.2.16+](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0/
 
 ### Example data set notebooks (v.2.16+):  
@@ -50,7 +50,7 @@ Below you can find the current release, as well as older versions. There is a �
 
 ---------------------------  
 
-#### git development ([version](https://code.google.com/p/pyrad/)) and change log ([link](https://code.google.com/p/pyrad/source/list))
+#### Note: the old google.code git version is deprecated. Please switch to the newer version on github.
 
 __previous stable releases:__     
 [Tutorial\_pyRAD\_v.2.01+ (old)](/tutorial/pyrad_v.2.1/)
