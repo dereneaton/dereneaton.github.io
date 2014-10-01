@@ -33,10 +33,10 @@ Below you can find the current release, as well as older versions. There is a â€
 +  [Development version](https://github.com/dereneaton/pyrad/)
 
 #### General Use Tutorial
-+  [FULL tutorial v.2.16+](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0/pyRAD_v.2.16.ipynb)  
++  [Full tutorial v.2.16+](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0/pyRAD_v.2.16.ipynb)  
 
-#### I highly recommend running through the example tutorial, which will only take a few minutes. 
-#### Example Tutorials (v.2.16+):  
+#### I highly recommend running through the example tutorial which takes just a few minutes. 
+#### Example Data Set and Tutorial (v.2.16+):  
 +  [RADseq Example Tutorial](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/tutorial_RAD.ipynb)
 
 --------------------------  
