@@ -3,11 +3,12 @@
 ##  author:  Deren Eaton                        ##
 ##  contact: deren.eaton@yale.edu               ##
 ##  date:    5/8/14                             ##
-##  version: 1.02                               ##
+##  version: 1.03                               ##
 ##################################################
 
 ##################################################
 ##  change log
+##  1.03: - paired data file names have _R1_ & _R2_
 ##  1.02: - dropout is only affected by arg 2 not data type
 ##  1.01: - barcodes differ by 2 bp by default
 ##################################################
@@ -323,9 +324,9 @@ print '\t',
 D = []
 Barcodes = {}
 
-out1 = gzip.open(outhandle+"_R1.fastq.gz",'wb')
+out1 = gzip.open(outhandle+"_R1_.fastq.gz",'wb')
 if datatype in ['pairddrad','pairgbs']:
-    out2 = gzip.open(outhandle+"_R2.fastq.gz",'wb')
+    out2 = gzip.open(outhandle+"_R2_.fastq.gz",'wb')
 
 if datatype in ['gbs']:
     nrepets = nrepets/2  # because forward and reverse sequenced
