@@ -16,6 +16,6 @@ tree under a coalescent model. See _Example usage_ page for advanced options, in
 simulating missing data, indels and different levels of divergence between taxa. 
 
 ### Download:  
-+ [_simRRLs.py_](/downloads/simRRLs.py) (version 1.02)
++ [_simRRLs.py_](/downloads/simRRLs.py) (version 1.03)
 
 ### Example usage: [_link_](/phylogenetics/simulating-radseq-data-on-a-fixed-tree/)
