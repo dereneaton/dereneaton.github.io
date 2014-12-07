@@ -12,7 +12,7 @@ image:
 share:
 ---
 
-Welcome to my academic website. As of January, 2014, I've joined the [Donoghue Lab](http://donoghuelab.yale.edu/) at Yale University as a postdoctoral researcher. Here you can find information about my research, publications, software development, and other news. I regularly write [_posts_](/posts/) on topics related to phylogenetics, popgen, and bioinformatics which is intended both as an online lab notebook as well as a repository for _Python_ and _R_ code. 
+Welcome to my academic website. As of January, 2014, I joined the [Donoghue Lab](http://donoghuelab.yale.edu/) at Yale University as a postdoctoral researcher. Here you can find information about my research, publications, software development, and other news. I (hope to) regularly write [_posts_](/posts/) on topics related to phylogenetics, popgen, and bioinformatics which is intended both as an online lab notebook as well as a repository for _Python_ and _R_ code. 
 
 ## Research topics:
 
