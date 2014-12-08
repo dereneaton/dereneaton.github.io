@@ -46,8 +46,8 @@ _pyRAD_ can analyze RAD, ddRAD, GBS, paired-end ddRAD and paired-end GBS data se
 
 #### Older version tutorials: 
 +  [Full Tutorials](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0)  
-+  [RADseq Tutorial_2.16](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc)
-+  [RADseq Tutorial v.2.10](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/pyRAD_v.2.10.ipynb)    
++  [SE RAD Tutorial_2.16](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc)
++  [SE RAD Tutorial_2.10](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/pyRAD_v.2.10.ipynb)    
 +  [PE ddRAD Tutorial_2.16](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/tutorial_RAD.ipynb)  
 
 
