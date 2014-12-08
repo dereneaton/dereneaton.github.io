@@ -15,29 +15,30 @@ share:
 
 #### Description
 
-The benefit of _pyRAD_ over some alternative methods for analyzing RADseq-like data comes in its use of an alignment-clustering method (_usearch_) that allows for the inclusion of indel variation which improves identification of homology across highly divergent samples. For this reason _pyRAD_ is commonly employed for RADseq studies at deeper phylogenetic scales, however, it works equally well at shallow scales.  
+The benefit of _pyRAD_ over most alternative methods for analyzing RADseq-like data comes in its use of an alignment-clustering method (_vsearch_) that allows for the inclusion of indel variation which improves identification of homology across highly divergent samples. For this reason _pyRAD_ is commonly employed for RADseq studies at deeper phylogenetic scales, however, it works equally well at shallow scales.  
 
 #### Flexibility
 
-_pyRAD_ can analyze RAD, ddRAD, GBS, paired-end ddRAD and paired-end GBS data sets. It also has funtionality for trimming/removing adapter sequences and merging overlapping paired end reads. A two-step clustering method makes clustering even very large data sets with hundreds of samples feasible and fast, and a “split clustering” method for paired-end ddRAD data dramatically speeds assembly of paired loci.  
+_pyRAD_ can analyze RAD, ddRAD, GBS, paired-end ddRAD and paired-end GBS data sets. It also has funtionality for trimming/removing adapter sequences and merging overlapping paired end reads. A two-step clustering method makes clustering even very large data sets with hundreds of samples feasible and fast, and a “split clustering” method for paired-end ddRAD data dramatically speeds assembly of paired loci. As of v.3.0 clustering speeds are dramatically improved.
 
 #### Continued development
-Below you can find the current release, as well as older versions. There is a “general use” tutorial which explains how to install and setup input files, as well as specific tutorials with example data for different data types and analyses. The software is described in the following publication ([preprint](http://biorxiv.org/content/early/2013/12/03/001081), [journal](http://bioinformatics.oxfordjournals.org/content/early/2014/03/20/bioinformatics.btu121 ))  
+Below you can find the current release in addition to older releases. There is a “general use” tutorial which explains how to install and setup input files, and also tutorials with example data sets for different data types and analyses. The software was initially described in the following publication ([preprint](http://biorxiv.org/content/early/2013/12/03/001081), [journal](http://bioinformatics.oxfordjournals.org/content/early/2014/03/20/bioinformatics.btu121 ))  
 
-#### Note: pyrad is now hosted on github which the links below will redirect to.
-
-
+#### Note: pyrad is now hosted on github at the links below.  
 
 ### Downloads
 +  [Current stable release](https://github.com/dereneaton/pyrad/releases)
-+  [Development version](https://github.com/dereneaton/pyrad/)
++  [git Development version](https://github.com/dereneaton/pyrad/)
 
 #### General Use Tutorial
-+  [Full tutorial v.2.16+](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0/pyRAD_v.2.16.ipynb)  
++  [Full tutorial v.3.0](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0/pyRAD_v.3.0.ipynb)  
 
-#### I highly recommend running through the example tutorial which takes just a few minutes. 
-#### Example Data Set and Tutorial (v.2.16+):  
-+  [RADseq Example Tutorial](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/tutorial_RAD.ipynb)
+#### I recommend going through an example tutorial which usually takes just a few minutes. 
++  [RADseq Tutorial v.3.0](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/tutorial_RAD.ipynb)  
++  [PE ddRAD Tutorial v.3.0](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/tutorial_RAD.ipynb)  
++  [PE ddRAD w/ merged reads Tutorial v.3.0](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/tutorial_RAD.ipynb)  
++  [SE GBS Tutorial v.3.0](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/tutorial_RAD.ipynb)  
++  [D-statistics tutorial]()  
 
 --------------------------  
 
@@ -45,16 +46,14 @@ Below you can find the current release, as well as older versions. There is a �
 
 ---------------------------  
 
-__previous releases:__     
-#### Note: the old google.code git version is deprecated. Please switch to the newer version on github.
-#### Previous tutorials: 
-[Full Tutorials](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0)  
-[RADseq tutorial v.2.10+](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/pyRAD_v.2.10.ipynb)    
-[paired-end ddRAD tutorial](http://nbviewer.ipython.org/gist/dereneaton/c18bff4ba8bf532ec14b)    
-[GBS tutorial](http://nbviewer.ipython.org/gist/dereneaton/9d12ff5ab6584c5ceafa)  
-ddRAD tutorial  
-D-statistic tests tutorial    
-#### Previous downloads    
+#### Older version tutorials: 
++  [Full Tutorials](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0)  
++  [RADseq Tutorial_2.16](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc)
++  [RADseq Tutorial v.2.10](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/pyRAD_v.2.10.ipynb)    
++  [PE ddRAD Tutorial_2.16](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/tutorial_RAD.ipynb)  
+
+
+#### Older version downloads (pre-git versions)
 [Tutorial\_pyRAD\_v.2.01+ (old)](/tutorial/pyrad_v.2.1/)  
 [pyrad_v.2.15.zip](/downloads/pyrad_v.2.15.zip)  
 [pyrad_v.2.14.zip](/downloads/pyrad_v.2.14.zip)  
