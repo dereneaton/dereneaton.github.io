@@ -7,8 +7,10 @@ tags: [talks]
 ---
 
 
-[2015_Yale_EEB.svg](/talks/Eaton_2015_Yale_EEB.svg)  
-[2014_Evolution_Raleigh.svg](/talks/Eaton_2014_Evolution_Raleigh.svg)   
-[2014_Botany_Boise.svg](/talks/Eaton_2014_Botany_Boise.svg)  
+#### Presentations are in SVG format and are viewable in Firefox or Chrome.   
+
+[_2014\_Yale\_EEB.svg_](/talks/Eaton_2015_Yale_EEB.svg)  
+[_2014\_Evolution\_Raleigh.svg_](/talks/Eaton_2014_Evolution_Raleigh.svg)   
+[_2014\_Botany\_Boise.svg_](/talks/Eaton_2014_Botany_Boise.svg)  
 
 
