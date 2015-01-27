@@ -7,10 +7,8 @@ tags: [talks]
 ---
 
 
-+ [Yale_EEB.svg](/talks/Yale_EEB.svg)
-
-+ [Evolution_2014.svg](/talks/Eaton_Evo2014_final.svg)  
-
-+ [Botany_2014.svg](/talks/Eaton_Botany2014.svg)  
+[2015_Yale_EEB.svg](/talks/Eaton_2015_Yale_EEB.svg)  
+[2014_Evolution_Raleigh.svg](/talks/Eaton_2014_Evolution_Raleigh.svg)   
+[2014_Botany_Boise.svg](/talks/Eaton_2014_Botany_Boise.svg)  
 
 
