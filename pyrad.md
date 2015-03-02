@@ -49,24 +49,4 @@ _pyRAD_ can analyze RAD, ddRAD, GBS, paired-end ddRAD and paired-end GBS data se
 
 ---------------------------  
 
-#### Older version tutorials: 
-[Full Tutorials](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0)  
-[SE RAD Tutorial_2.16](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc)
-[SE RAD Tutorial_2.10](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/pyRAD_v.2.10.ipynb)   
-[PE ddRAD Tutorial_2.16](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/tutorial_RAD.ipynb)  
-[SE GBS Tutorial_2.16](http://nbviewer.ipython.org/gist/dereneaton/9d12ff5ab6584c5ceafa/tutorial_GBS_2.16.ipynb)  
-
-#### Older version downloads (pre-git versions)
-[Tutorial\_pyRAD\_v.2.01+ (old)](/tutorial/pyrad_v.2.1/)  
-[pyrad_v.2.15.zip](/downloads/pyrad_v.2.15.zip)  
-[pyrad_v.2.14.zip](/downloads/pyrad_v.2.14.zip)  
-[pyrad_v.2.13.zip](/downloads/pyrad_v.2.13.zip)  
-[pyrad_v.2.12.zip](/downloads/pyrad_v.2.12.zip)   
-[pyrad_v.2.11.zip](/downloads/pyrad_v.2.11.zip)  
-[pyrad_v.2.10.zip](/downloads/pyrad_v.2.10.zip)   
-[pyrad_v.2.01 tutorial](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0)  
-[pyrad_v.2.01.zip](/downloads/pyrad_v.2.01.zip)  
-[pyrad_v.2.00.zip](/downloads/pyrad_v.2.0.zip)  
-[pyrad_v.1.64.zip](/downloads/pyrad_v.1.64.zip)  
-[pyrad\_tutorial\_v.1.64.pdf](/downloads/pyrad_v.1.64.pdf)  
-[pyrad_v.1.4.zip](/downloads/pyrad_v.1.4.zip)  
+#### [Previous version tutorials link](http://nbviewer.ipython.org/gist/dereneaton/af9548ea0e94bff99aa0)  
