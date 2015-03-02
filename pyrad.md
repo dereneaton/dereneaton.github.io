@@ -23,6 +23,7 @@ _pyRAD_ is intended for use with any type of restriction-site associated DNA. It
 
 ### Downloads (now on github)  
 You can download a stable release version, or if you are comfortable with _git_ you may clone the repository. Whichever you choose, please check for updates frequently, as I generally make bug fixes or updates weekly (see [changelog](https://github.com/dereneaton/pyrad/commits/master)).  
+
 +  [Current stable release](https://github.com/dereneaton/pyrad/releases)
 +  [git Development version](https://github.com/dereneaton/pyrad/)
 
