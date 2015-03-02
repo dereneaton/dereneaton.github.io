@@ -37,8 +37,10 @@ _pyRAD_ can analyze RAD, ddRAD, GBS, paired-end ddRAD and paired-end GBS data se
 +  [PE ddRAD w/ merged reads Tutorial v.3.0.4](http://nbviewer.ipython.org/gist/dc6241083c912519064e/tutorial_pairddRAD_3.0.4-merged.ipynb)
 +  [SE GBS (or ezRAD) Tutorial v.3.0.4](http://nbviewer.ipython.org/gist/dereneaton/9d12ff5ab6584c5ceafa/tutorial_GBS_3.0.ipynb)  
 +  [PE GBS (or ezRAD) w/ merged reads Tutorial v.3.0.4](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/PE-GBS_empirical.ipynb)  
-+  D-statistics tutorial()
++  D-statistics tutorial()  
 
+
+(see the google group forum for additional supported datatypes: 2B-RAD, ezRAD, nextRAD, etc.
 --------------------------  
 
 #### Google group questions forum ([link](https://groups.google.com/forum/#!forum/pyrad-users))
