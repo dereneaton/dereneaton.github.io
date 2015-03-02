@@ -32,11 +32,12 @@ _pyRAD_ can analyze RAD, ddRAD, GBS, paired-end ddRAD and paired-end GBS data se
 +  [SE RAD Tutorial v.3.0](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/tutorial_RAD_3.0.ipynb)  
 
 #### Advanced tutorials  
-+  [PE ddRAD Tutorial v.3.0](http://nbviewer.ipython.org/gist/dereneaton/dc6241083c912519064e/tutorial_pairddRAD_3.0.ipynb)  
-+  [PE ddRAD w/ merged reads Tutorial v.3.0](http://nbviewer.ipython.org/gist/dereneaton/dc6241083c912519064e/tutorial_pairddRAD_3.0-merged.ipynb)  
-+  [SE GBS (or ezRAD) Tutorial v.3.0](http://nbviewer.ipython.org/gist/dereneaton/9d12ff5ab6584c5ceafa/tutorial_GBS_3.0.ipynb)  
++  [SE ddRAD Tutorial v.3.0.4](http://nbviewer.ipython.org/dc6241083c912519064e/tutorial_ddRAD_3.0.4.ipynb)
++  [PE ddRAD Tutorial v.3.0.4](http://nbviewer.ipython.org/dc6241083c912519064e/tutorial_pairddRAD_3.0.4.ipynb)
++  [PE ddRAD w/ merged reads Tutorial v.3.0.4](http://nbviewer.ipython.org/dc6241083c912519064e/tutorial_pairddRAD_3.0.4-merged.ipynb)
++  [SE GBS (or ezRAD) Tutorial v.3.0.4](http://nbviewer.ipython.org/gist/dereneaton/9d12ff5ab6584c5ceafa/tutorial_GBS_3.0.ipynb)  
 +  [PE GBS (or ezRAD) w/ merged reads Tutorial v.3.0](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/PE-GBS_empirical.ipynb)  
-+  D-statistics tutorial()  
++  D-statistics tutorial()
 
 --------------------------  
 
