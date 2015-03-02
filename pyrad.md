@@ -22,6 +22,7 @@ The benefit of _pyRAD_ over most alternative methods for analyzing RADseq-like d
 _pyRAD_ can analyze RAD, ddRAD, GBS, paired-end ddRAD and paired-end GBS data sets. Below you can find the current release in addition to older releases. There is a “general use” tutorial which explains how to install and setup input files, and also tutorials with example data sets for different data types and analyses. The software was initially described in the following publication ([preprint](http://biorxiv.org/content/early/2013/12/03/001081), [journal](http://bioinformatics.oxfordjournals.org/content/early/2014/03/20/bioinformatics.btu121 ))  
 
 ### Downloads (now on github)  
+Stable release versions are provided, or if you are comfortable with _git_ you may choose to clone the repository. Whichever you use, please check for updates frequently, as I generally make bug fixes or updates every week (see [changelog](https://github.com/dereneaton/pyrad/commits/master))
 +  [Current stable release](https://github.com/dereneaton/pyrad/releases)
 +  [git Development version](https://github.com/dereneaton/pyrad/)
 
