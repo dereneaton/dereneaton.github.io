@@ -22,7 +22,7 @@ The benefit of _pyRAD_ over most alternative methods for analyzing RADseq-like d
 _pyRAD_ is intended for use with any type of restriction-site associated DNA. It currently supports RAD, ddRAD, PE-ddRAD, GBS, PE-GBS, EzRAD, PE-EzRAD, 2B-RAD, nextRAD, and can be extended to other types. Below is the download link as well as a number of tutorials. There is a “general use” tutorial which explains how to install and setup input files, and also tutorials with example data sets for different data types and analyses. The software was initially described in the following publication ([preprint](http://biorxiv.org/content/early/2013/12/03/001081), [journal](http://bioinformatics.oxfordjournals.org/content/early/2014/03/20/bioinformatics.btu121 ))  
 
 ### Downloads (now on github)  
-You can download a stable release version, or if you are comfortable with _git_ you may clone the repository. Whichever you choose, please check for updates frequently, as I generally make bug fixes or updates weekly (see [changelog](https://github.com/dereneaton/pyrad/commits/master))
+You can download a stable release version, or if you are comfortable with _git_ you may clone the repository. Whichever you choose, please check for updates frequently, as I generally make bug fixes or updates weekly (see [changelog](https://github.com/dereneaton/pyrad/commits/master)).  
 +  [Current stable release](https://github.com/dereneaton/pyrad/releases)
 +  [git Development version](https://github.com/dereneaton/pyrad/)
 
