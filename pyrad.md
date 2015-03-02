@@ -40,7 +40,9 @@ _pyRAD_ can analyze RAD, ddRAD, GBS, paired-end ddRAD and paired-end GBS data se
 +  D-statistics tutorial()  
 
 
-(see the google group forum for additional supported datatypes: 2B-RAD, ezRAD, nextRAD, etc.
+(see the google group forum for additional supported datatypes: 2B-RAD, ezRAD, nextRAD, etc.)  
+
+
 --------------------------  
 
 #### Google group questions forum ([link](https://groups.google.com/forum/#!forum/pyrad-users))
