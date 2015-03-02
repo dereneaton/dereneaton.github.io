@@ -40,9 +40,7 @@ You can download a stable release version, or if you are comfortable with _git_ 
 +  [PE GBS (or ezRAD) w/ merged reads Tutorial v.3.0.4](http://nbviewer.ipython.org/gist/dereneaton/1f661bfb205b644086cc/PE-GBS_empirical.ipynb)  
 +  D-statistics tutorial()  
 
-
-(see the google group forum for additional supported datatypes: 2B-RAD, ezRAD, nextRAD, etc.)  
-
+(For now, contact the google group forum for additional supported datatypes: 2B-RAD, nextRAD, etc.)  
 
 --------------------------  
 
