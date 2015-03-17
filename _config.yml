@@ -9,9 +9,14 @@ relative_permalinks: false
 owner:
   name:           Deren Eaton
   avatar:         me_decorRNA_0610.jpg
+<<<<<<< HEAD
   bio:            "Postdoc :: Yale University Ecology and Evolutionary Biology :: deren [dot] eaton [at] yale [dot] edu"
   email:          "deren.eaton@yale.edu"
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
+=======
+  bio:            "Postdoc :: Yale University Ecology and Evolutionary Biology."
+  email:          deren.eaton@yale.edu
+>>>>>>> 33fe597fcae51d3a262978b7312d9c2b6c829e3d
   twitter: dereneaton       
   facebook:       
   github: dereneaton        
