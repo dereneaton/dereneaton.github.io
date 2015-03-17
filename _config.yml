@@ -7,25 +7,25 @@ relative_permalinks: false
 
 # Owner/author information
 owner:
-  name:           Deren Eaton
-  avatar:         me_decorRNA_0610.jpg
-  bio:            "Postdoc :: Yale University Ecology and Evolutionary Biology :: deren [dot] eaton [at] yale [dot] edu"
-  email:          deren.eaton@yale.edu
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  name: Deren Eaton
+  avatar: me_decorRNA_0610.jpg
+  bio: "Postdoc :: Yale University Ecology and Evolutionary Biology :: deren [dot] eaton [at] yale [dot] edu"
+  email: deren.eaton@yale.edu
+  #Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: dereneaton       
-  facebook:       
+  #facebook:       
   github: dereneaton        
-  stackoverflow: 
-  linkedin:       
-  instagram:      
-  lastfm:         
+  #stackoverflow: 
+  #linkedin:       
+  #instagram:      
+  #lastfm:         
   tumblr: flower-doctor
-  pinterest: 
-  foursquare: 
-  steam: 
-  dribbble: 
+  #pinterest: 
+  #foursquare: 
+  #steam: 
+  #dribbble: 
   # For Google Authorship https://plus.google.com/authorship
-  google_plus: 
+  #google_plus: 
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-50125500-1
