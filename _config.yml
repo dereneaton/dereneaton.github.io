@@ -19,7 +19,7 @@ owner:
   #linkedin:       
   #instagram:      
   #lastfm:         
-  tumblr: flower-doctor
+  #tumblr: flower-doctor
   #pinterest: 
   #foursquare: 
   #steam: 
@@ -46,16 +46,16 @@ links:
   - title: Software
     url: /software/
   - title: Photos
-    url: http://flowerdoctor.tumblr.com
+    url: http://flower-doctor.tumblr.com
     external: true
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-#pygments:    true
+timezone: America/New_York
+future: true
+pygments: true
 highlight: pygments
-markdown:    redcarpet
+markdown: redcarpet
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   :categories/:title/
