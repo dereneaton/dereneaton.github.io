@@ -1,30 +1,31 @@
-title:            Deren Eaton
-description:      Academic Portal.
+title: Deren Eaton
+description: Academic Portal.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://dereneaton.github.io
+url: http://dereneaton.github.io
 disqus_shortname: daeaton
 relative_permalinks: false
 
 # Owner/author information
 owner:
-  name:           Deren Eaton
-  avatar:         me_decorRNA_0610.jpg
-  bio:            "Postdoc :: Yale University Ecology and Evolutionary Biology."
-  email:          deren.eaton@yale.edu
-  twitter: dereneaton       
-  facebook:       
-  github: dereneaton        
-  stackoverflow: 
-  linkedin:       
-  instagram:      
-  lastfm:         
-  tumblr: flower-doctor
-  pinterest: 
-  foursquare: 
-  steam: 
-  dribbble: 
+  name: Deren Eaton
+  avatar: me_decorRNA_0610.jpg
+  bio: "Postdoc at Yale University. Ecology and Evolutionary Biology"
+  email: deren.eaton@yale.edu
+  #Social networking links are used in author-bio sidebar. Update and remove as you like.
+  twitter: dereneaton
+  #facebook:
+  github: dereneaton
+  #stackoverflow: 
+  #linkedin:       
+  #instagram:      
+  #lastfm:         
+  #tumblr: flower-doctor
+  #pinterest: 
+  #foursquare: 
+  #steam: 
+  #dribbble: 
   # For Google Authorship https://plus.google.com/authorship
-  google_plus: 
+  #google_plus: 
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-50125500-1
@@ -44,18 +45,17 @@ links:
     url: /publications/
   - title: Software
     url: /software/
-
-#  - title: Photos
-#    url: www.flowerdoctor.tumblr.com
-#    external: true
+  - title: Photos
+    url: http://flower-doctor.tumblr.com
+    external: true
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-#pygments:    true
+timezone: America/New_York
+future: true
+pygments: true
 highlight: pygments
-markdown:    redcarpet
+markdown: redcarpet
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   :categories/:title/
