@@ -11,6 +11,7 @@ owner:
   avatar: me_decorRNA_0610.jpg
   bio: "Postdoc at Yale University. Ecology and Evolutionary Biology"
   email: deren.eaton@yale.edu
+  disqus-shortname: daeaton
   #Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: dereneaton
   #facebook:
@@ -53,8 +54,9 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: America/New_York
 future: true
-pygments: true
-highlight: pygments
+highlighter: pygments
+#pygments: true
+#highlight: pygments
 markdown: redcarpet
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
