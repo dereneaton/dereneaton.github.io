@@ -2,7 +2,7 @@ title: Deren Eaton
 description: Academic Portal.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url: http://dereneaton.github.io
-disqus_shortname: daeaton
+# disqus_shortname: daeaton
 relative_permalinks: false
 
 # Owner/author information
@@ -12,18 +12,12 @@ owner:
   bio: "Postdoc at Yale University. Ecology and Evolutionary Biology"
   email: deren.eaton@yale.edu
   disqus-shortname: daeaton
-  #Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: dereneaton
-  #facebook:
   github: dereneaton
   #stackoverflow: 
-  #linkedin:       
   #instagram:      
   #lastfm:         
   #tumblr: flower-doctor
-  #pinterest: 
-  #foursquare: 
-  #steam: 
   #dribbble: 
   # For Google Authorship https://plus.google.com/authorship
   #google_plus: 
