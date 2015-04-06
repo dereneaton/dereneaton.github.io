@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Installing-egglib-on-ubuntu"
+modified:
+categories: 
+excerpt:
+tags: []
+image:
+  feature:
+date: 2015-04-02T17:51:28-04:00
+---
+
+I really like the _egglib_ package for 
