@@ -25,14 +25,14 @@ that emulates restriction-site associated DNA, with slight
 variations for different data types (e.g., RADseq, ddRAD, GBS, 
 paired-end data). 
 
-I originally developed this script to generate data for bug 
+I originally developed the script to generate data for bug 
 testing _pyRAD_ and to create example data sets for use in tutorials. 
-The main purpose of this script is to test assembly methods
-on raw data, if you are interested in simulating data for 
+Its main purpose is for testing assembly methods
+on raw data -- if you are interested in simulating data for 
 downstream analyses I would recommend instead using my 
 ([simLoci.py](/software/)) script, which simulates
 _assembled_ RADseq-like data in a number
-of usable formats (.phy, .nex, .geno, .migrate), 
+of formats (.phy, .nex, .geno, .migrate), 
 and includes options to allow introgression between lineages.
 
 Still, I figured a script to simulate raw data might be useful to 
@@ -46,7 +46,7 @@ __Calling the script__ -- _simrlls.py_ takes eight sequential arguments,
 each described in more detail below:
 
 1.  Allow indels (decimal). The probability a mutation is a deletion.
-2.  Allow mutations to restriction sites (int). 0=no locus dropout.
+2.  Allow locus dropout (int). 0=no locus dropout.
 3.  Number of loci to sample (int; multiple of 100 or 1000)
 4.  Number of individuals per tip taxon (int; minimum 1).
 5.  Depth of sequencing (int, or (int,int)=(mean,std))
@@ -55,13 +55,14 @@ each described in more detail below:
 8.  Prefix name for output files (string)
 
 __Fixed arguments__--
-For simplicity, 100 bp sequences are evolved on a fixed 12 taxon species 
-tree. Similarly hard-coded is a sequencing error rate of 0.0005 mutations 
+For simplicity, a number of parameters are fixed, but these can be easily 
+edited within the script. For example, 100 bp sequences are evolved on a 
+fixed 12 taxon species tree. 
+Similarly hard-coded is a sequencing error rate of 0.0005 mutations 
 per site, and a mutation-scaled effective population 
 size (theta) per tip taxon of 0.0014. The first restriction site
 overhang is from PstI (TGCAG) and the second (used in ddRAD data) 
-is from EcoRI (GAATT). These fixed parameters can be easily 
-changed in the first few lines of the script.
+is from EcoRI (AATTC). 
 The outgroup taxon in the tree "X" is not included in the output 
 data, but is used in the simulation to polarize mutations relative 
 to an outgroup for creating indels and missing data. 
@@ -78,26 +79,29 @@ recognition sites). If the the maximum length of size selected fragments
 is 500, then the locus is dropped if a mutation occurs relative to the 
 outgroup such that either of the restriction recognition sites occurs 
 within the length of this fragment. The locus is also dropped if 
-a mutation occurs within the restriction site(s). Locus dropout can 
-be turned off (set to 0). 
+a mutation occurs within the restriction site(s). Since theta and the restriction sites are fixed
+by default, the easiest way to toggle the amount of locus dropout is to 
+change the size selection window max size (see below).
+Locus dropout can be turned off (set to 0). 
 
 __arg 3__ -- Nloci is the number of loci that will be generated for the
-first sampled individual in the outgroup taxon after excluding loci that
-would have experienced locus dropout in this sample. If locus dropout is 
-turned off then all other samples will have the same number of loci. 
-If locus dropout is turned on, all locus dropout
+first sampled individual in the outgroup taxon "X" 
+(after excluding loci that would have experienced locus dropout in this sample). 
+The outgroup is not included in the output. If locus dropout is 
+turned off then all ingroup samples will also have this same number of loci. 
+If locus dropout is turned on, however, then locus dropout
 occurs by mutations relative to this sample. 
 
 __arg 4__ -- Ninds is the number of sampled individuals from each tip 
 taxon with divergence among individuals scaled by theta, which
- is fixed at 0.0014. 
+ is fixed at 0.0014 per locus. 
 
 __arg 5__ -- Sequencing depth for diploid individuals. If an int is 
 entered then it is rounded up to the nearest even number and the 
 two alleles if present are sampled with equal frequency. E.g., depth=20
 would mean each allele is sampled 10 times. Alternatively two 
-comma-separated int values can be entered, upon which each _allele_ will 
-be sampled from a normal distribution with values _mean,stdev_. An 
+comma-separated int values can be entered, upon which _each allele_ will 
+be sampled from a normal distribution with depth N(_mean,stdev_). An 
 example with values 10,2 could be that at one locus allele\_1 is sampled
 11 times and allele\_2 is sampled 9 times. 
 
@@ -114,7 +118,8 @@ user supplied size window. The total size selected fragments are
 __arg 7__ -- This arguments determines the data type. 
 Depending on the choice the script will put cut sites and barcodes in 
 the proper ends of sequences so that they emulate RAD, GBS, or ddRAD 
-data, single or paired-end. The choice also effects how locus dropout occurs.
+data, single or paired-end. The choice also effects how locus dropout occurs 
+(i.e., one or two cutters present).
 
 #### Calling the script
 {% highlight bash %}
