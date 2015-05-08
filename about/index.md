@@ -13,7 +13,7 @@ image:
 
 Welcome to my academic website. I'm currently a post-doc in the [Donoghue Lab](http://donoghuelab.yale.edu/) at Yale University. Here you can find information about my research, publications, software development, and other news. I (hope to) regularly write [_posts_](/posts/) on topics related to phylogenetics and bioinformatics with the goal of documenting useful _Python_ and _R_ code. 
 
-### Primary research topics:  
+### Primary research interests:  
 
 * RADseq bioinformatics and phylogenetics  
 * Reproductive interference and speciation in hyperdiverse lineages  
@@ -26,6 +26,7 @@ Welcome to my academic website. I'm currently a post-doc in the [Donoghue Lab](h
 	<a href="/images/deren_fieldwork-1024x680.jpg"><img src="/images/deren_fieldwork-1024x680.jpg"></a>
 </figure>  
   
+
 ## Topics  
 
 __Bioinformatics__ -- I created and still actively develop the program _pyRAD_, which is used to assemble genomic RADseq data sets. I love learning about Python programming and linux, and I'm a huge advocate for open-source code and data sharing. You can follow active development of my projects on github.  
@@ -45,6 +46,9 @@ __Oaks__ -- Coyne and Orr described oaks as "a worst case scenario of the biolog
 
 
 __Viburnum__ -- A model system for phylogenetic comparative methods in plants, and in particular historical biogeography and leaf trait evolution. We are using RADseq methods to infer deep-scale phylogenies, infer introgression between lineages, resolving polyploid lineages, and study replicate radiations of leaf forms among Viburnum in central and south America. 
+
+<a href="/images/Viburnum_lantanoides.jpg"><img src="/images/Viburnum_lantanoides.jpg"></a>
+
 
 + collaborators: [Michael Donoghue](http://www.donoghuelab.yale.edu). 
 
