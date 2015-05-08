@@ -27,6 +27,9 @@ Welcome to my academic website. I'm currently a post-doc in the [Donoghue Lab](h
 
 __Bioinformatics__ -- I created and still actively develop the program _pyRAD_, which is used to assemble genomic RADseq data sets. I love learning about Python programming and linux, and I'm a huge advocate for open-source code and data sharing. You can follow active development of my projects on github.  
 
+----------   
+
+
 __Reproductive Interference__ -- My research is broadly focused on understanding why some clades of organisms contain more species than others, and within this context I’m especially interested in the long-recognized relationship among flowering plants where families with more specialized pollination mechanisms tend to contain more species. To understand this pattern I study how flower evolution affects rates of speciation, and reciprocally, how interactions among co-occurring species, especially within highly diverse clades, affect flower evolution.
 
 
@@ -42,12 +45,21 @@ __Pedicularis__ -- Much of my research is focused on the hyperdiverse genus _Ped
   		 	   [Shuang-Quan Huang](http://www.researchgate.net/profile/Shuang-Quan_Huang/),
 			   		 [Yu Wen-bin](http://wbyu.wikispaces.com/home)   
 
+
+--------------   
+
+
 <a href="/images/angel_oak.jpg"><img src="/images/angel_oak.jpg"></a>  
 
 __Oaks__ -- Coyne and Orr described oaks as "a worst case scenario of the biological species" due to their often blurred species boundaries resulting from hybridization. Whether as a consequence of hybridization, insufficiently variable markers, or sorting of ancestral polymorphisms in large populations of long lived trees, previous phylogenetic studies have shown great difficulty in resolving oak relationships at both shallow and deep evolutionary timescales. Applying genomic RADseq data we have resolved a backbone phylogeny of the American clade oaks (Hipp et al. 2014) and shown evidence of frequent hybridization among the live oaks which affects phylogenetic inference (Eaton et al. In Review), and which has likely persisted over millions of years (Cavender-Bares et al. In Press).  
 
 + collaborators: [Jeannine Cavender-Bares](http://www.cbs.umn.edu/research/research-cbs/faculty-labs/cavender),
   		 	    [Andrew Hipp](http://systematics.mortonarb.org/lab/)  
+
+
+----------------    
+
+
 
 <figure class="half">
         <a href="/images/Viburnum_lantanoides.jpg"><img src="/images/Viburnum_lantanoides.jpg"></a>
