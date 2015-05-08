@@ -41,11 +41,15 @@ __Pedicularis__ -- Much of my research is focused on the hyperdiverse genus _Ped
   
 __Oaks__ -- Coyne and Orr described oaks as "a worst case scenario of the biological species" due to their often blurred species boundaries resulting from hybridization. Whether as a consequence of hybridization, insufficiently variable markers, or sorting of ancestral polymorphisms in large populations of long lived trees, previous phylogenetic studies have shown great difficulty in resolving oak relationships at both shallow and deep evolutionary timescales. Applying genomic RADseq data we have resolved a backbone phylogeny of the American clade oaks (Hipp et al. 2014) and shown evidence of frequent hybridization among the live oaks which affects phylogenetic inference (Eaton et al. In Review), and which has likely persisted over millions of years (Cavender-Bares et al. In Press). 
 
+<a href="/images/angel_oak.jpg"><img src="/images/angel_oak.jpg"></a>
+
+
 + collaborators: [Jeannine Cavender-Bares](http://www.cbs.umn.edu/research/research-cbs/faculty-labs/cavender),
   		 	    [Andrew Hipp](http://systematics.mortonarb.org/lab/)
 
 
 __Viburnum__ -- A model system for phylogenetic comparative methods in plants, and in particular historical biogeography and leaf trait evolution. We are using RADseq methods to infer deep-scale phylogenies, infer introgression between lineages, resolving polyploid lineages, and study replicate radiations of leaf forms among Viburnum in central and south America. 
+
 
 <a href="/images/Viburnum_lantanoides.jpg"><img src="/images/Viburnum_lantanoides.jpg"></a>
 
