@@ -17,7 +17,7 @@ __2015__
 
 * __Eaton, D.A.R.__, Hipp, A., Gonzalez-Rodriguez, A. & J. Cavender-Bares. _Hybridization obscures and reveals historical relationships among the American live oaks._ In Review. ([preprint](http://biorxiv.org/content/early/2015/03/17/016238))
 
-* Cavender-Bares, J., Gonzalez-Rodriguez, A., __Eaton, D.A.R.__, Hipp, A., Buelke, A., & P. Manos. _Phylogeny and biogeography of the American live oaks (Quercus subsection Virentes): A genomic and population genetic approach._ In Review.
+* Cavender-Bares, J., Gonzalez-Rodriguez, A., __Eaton, D.A.R.__, Hipp, A., Buelke, A., & P. Manos. _Phylogeny and biogeography of the American live oaks (Quercus subsection Virentes): A genomic and population genetic approach._ In Press.
 
 -----------------  
 __2014__  
