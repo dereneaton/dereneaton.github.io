@@ -19,7 +19,7 @@ image:
 
 [Full_S](Full_S.html) : Bivariate scatterplots showing the distribution of leaf trait values between species.  
 
-[Pop_S.html](Full_S_pops.html) : The same as above but with each population highlighted.  
+[Pop_S](Full_S_pops.html) : The same as above but with each population highlighted.  
 
 
 
