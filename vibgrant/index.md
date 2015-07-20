@@ -21,6 +21,8 @@ image:
 
 [Pop_S](Full_S_pops.html) : The same as above but with each population highlighted.  
 
+[Ellipse](Ellipse_testing.html) : This is test for code to plot ellipses. The figures should eventually look something like this. Right?
+
 
 
 
