@@ -21,7 +21,7 @@ image:
 
 [Pop_S](Full_S_pops.html) : The same as above but with each population highlighted.  
 
-[Ellipse](Ellipse_testing.html) : This is test for code to plot ellipses. The figures should eventually look something like this. Right?
+[Ellipse](Ellipse_testing.html) : This is trial for what the ellipses plots will eventually look like. The points in the back will be the actual leaf values. The ellipses show evolution along the line of least resistance between two traits given constraints imposed by the other traits that are not shown. These constraints are measured in the VCV matrices __P__ and __D__. 
 
 
 
