@@ -11,15 +11,17 @@ image:
 ---
 
 
-[Full_D](Full_D.html) : Developmental variation in jucundum (PN) and lautum (Teo; subsampled first 300 branches). Each point represent the mean leaf morphology in the first leaf pair of a branch and a vector is drawn from there to the mean leaf morphology at the last leaf pair sampled in that branch.  
+[Development line plots (main pops)](Full_D.html) : Developmental variation in jucundum (PN) and lautum (Teo; subsampled first 300 branches). Each point represent the mean leaf morphology in the first leaf pair of a branch and a vector is drawn from there to the mean leaf morphology at the last leaf pair sampled in that branch.  
 
-[Full_D_alt](Full_D_alt.html) : The same as above but sampling the remaining populations. In some cases the developmental relationships are stronger here.  
+[Development line plots (other pops)](Full_D_alt.html) : The same as above but sampling the remaining populations. In some cases the developmental relationships are stronger here.  
 
-[Full_H](Full_H.html) : Histograms showing diffrences in leaf trait distributions between species.  
+[Trait histograms](Full_H.html) : Histograms showing diffrences in leaf trait distributions between species.  
 
-[Full_S](Full_S.html) : Bivariate scatterplots showing the distribution of leaf trait values between species.  
+[Scatterplots](Full_S.html) : Bivariate scatterplots showing the distribution of leaf trait values between species.  
 
-[Pop_S](Full_S_pops.html) : The same as above but with each population highlighted.  
+[Scatterplots x Pop](Full_S_pops.html) : The same as above but with each population highlighted.  
+
+[Scatterplots x Leaf set](Full_S_tiers.html) : The same as above but with each leaf tier highlighted.  
 
 [Ellipse_demo](Ellipse_demo.html) : Matrix representation demo.   
 
