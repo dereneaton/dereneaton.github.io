@@ -15,7 +15,10 @@ image:
 
 [Development line plots (other pops)](Full_D_alt.html) : The same as above but sampling the remaining populations. In some cases the developmental relationships are stronger here. 
 
-[Across-individual V1 line plots (main pops)](Full_I1.html) : Here lines connect mean V1 leaf values across branches from the same individual. The lines thus show variation within individuals at developmentally homologous leaves (devologues?) and any apparent pattern of parallel lines across branches would represent the across-individual direction of variation. Colors represent different individuals.    
+[Across-individual V1 line plots (all pops)](Full_I1.html) : Here lines connect mean V1 leaf values across branches from the same individual. The lines thus show variation within individuals at developmentally homologous leaves (devologues?) and any apparent pattern of parallel lines across branches would represent the across-individual direction of variation. The third panel shows the mean V1 values of each individual, and thus the across-individual patterns.  
+
+[Across-individual V2 line plots (all pops)](Full_I2.html) : Same as above but for V2s. Good news, the across-individual variation in V2s is the same as for V1s!
+
 
 [Trait histograms](Full_H.html) : Histograms showing diffrences in leaf trait distributions between species.  
 
