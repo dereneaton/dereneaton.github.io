@@ -13,7 +13,7 @@ comments: true
 
 [Figure_1](Figure1.svg) ([PDF](Figure1.pdf))-- A map showing the two original divergence hypotheses. Orange indicates areas where we will focus our collecting efforts, green area will be examined in the context of phylogeny using samples from herbaria.  
 
-[Figure_2] -- Our RADseq phylogeny with ABBA-BABA used to test alternative hypotheses.  
+[Figure_2](Figure2.svg) ([PDF](Figure2.pdf)) -- Our RADseq phylogeny for 16 species in _Oreinotinus_ with with ABBA-BABA tests showing introgression within clades, but not between clades.   
 
 [Fig. 5 -- Ellipse_outline](Ellipse_outline.svg) : I think the final figure will be close to this.
 
