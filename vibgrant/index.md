@@ -28,11 +28,9 @@ image:
 
 [Scatterplots x Leaf set](Full_S_tiers.html) : The same as above but with each leaf tier highlighted.  
 
-[Ellipse_demo](Ellipse_demo.html) : Matrix representation demo.   
+[Ellipse_outline](Ellipse_outline.svg) : I think the final figure will be close to this.  
 
-[Ellipse_demo2](Ellipse_demo2.html) : (Improved?) Matrix representation demo.  
-
-[Ellipse_test](Ellipse_testing.html) : This is trial for what the ellipses plots will eventually look like. The points in the back will be the actual leaf values. The ellipses show evolution along the line of least resistance between two traits given constraints imposed by the other traits that are not shown. These constraints are measured in the VCV matrices __P__ and __D__. 
+[Ellipse demo](Ellipse_demo.html), [Ellipse_demo2](Ellipse_demo2.html), [Ellipse_test](Ellipse_testing.html) : The points in the back will be the actual leaf values. The ellipses show evolution along the line of least resistance between two traits given constraints imposed by the other traits that are not shown. These constraints are measured in the VCV matrices __P__ and __D__. 
 
 
 
