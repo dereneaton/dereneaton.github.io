@@ -11,9 +11,9 @@ image:
 ---
 
 
-[Development line plots (main pops)](Full_D.html),[Full_D_alt.html](other pops) : Developmental variation in jucundum (PN) and lautum (Teo; subsampled first 300 branches). Each point represent the mean leaf morphology in the first leaf pair (V1) of a branch and a vector is drawn from there to the mean leaf morphology at the last leaf pair sampled in that branch.  
+[Development line plots (main pops)](Full_D.html), ([Full_D_alt.html](other pops)) : Developmental variation in jucundum (PN) and lautum (Teo; subsampled first 300 branches). Each point represent the mean leaf morphology in the first leaf pair (V1) of a branch and a vector is drawn from there to the mean leaf morphology at the last leaf pair sampled in that branch.  
 
-[Across-individual V1 line plots (all pops)](Full_I1.html), [V2s](Full_I2.html) : Here lines connect mean V1 leaf values across branches from the same individual. The lines thus show variation within individuals at developmentally homologous leaves (devologues?) and any apparent pattern of parallel lines across branches would represent the across-individual direction of variation. The third panel shows the mean V1 values of each individual, and thus the across-individual patterns.The V2s show the same across-individual variation as V1s!
+[Across-individual V1 line plots (all pops)](Full_I1.html), ([V2s](Full_I2.html)) : Here lines connect mean V1 leaf values across branches from the same individual. The lines thus show variation within individuals at developmentally homologous leaves (devologues?) and any apparent pattern of parallel lines across branches would represent the across-individual direction of variation. The third panel shows the mean V1 values of each individual, and thus the across-individual patterns.The V2s show the same across-individual variation as V1s!
 
 
 [Fig. 15 -- Trait histograms](Full_H.html) : Histograms showing diffrences in leaf trait distributions between species.  
