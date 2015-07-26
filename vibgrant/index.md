@@ -13,7 +13,7 @@ comments: true
 
 [Figure_2 map and hypotheses](Figure1.svg) ([PDF](Figure1.pdf))-- A map showing the two original divergence hypotheses. Orange indicates areas where we will focus our collecting efforts, green area will be examined in the context of phylogeny using samples from herbaria.  
 
-[Figure_4 Ellipse_outline](Ellipse_outline.svg) ([PDF](Ellipse_outline.pdf)) : ...I think the final figure will be close to this.
+[Figure_4 Ellipse_outline_5panel](Ellipse_outline_5panel.svg) ([PDF](Ellipse_outline_5panel.pdf)) : ...I think the final figure will be close to this.
 
 [Figure_5 RADseq tree & ABBA-BABA](Figure2.svg) ([PDF](Figure2.pdf)) -- Our RADseq phylogeny for 16 species in _Oreinotinus_.  Letters on the branches indicate geographic regions from Figure 1, showing that this tree supports replicate parallel leaf divergences. (B) Morphological hybrids sampled where sister-species co-occur show genomic evidence of admixture (ABBA>BABA). (C) Introgression between lineages from adjacent regions is not supported, which provides further support that our phylogeny is correct and does not simply reflect recent gene flow.  
 
