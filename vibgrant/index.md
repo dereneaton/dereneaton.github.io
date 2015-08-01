@@ -11,7 +11,7 @@ image:
 comments: true
 ---
 
-[Figure_1](Figure_1_leaves.png) -- contrasting leaf forms, sems, hairs, histograms.  
+[Figure_1](Figure_1_leaves2.svg) ([PNG](Figure_1_leaves2.png)) -- contrasting leaf forms, sems, hairs, histograms.  
 
 [Figure_2 map and hypotheses](Figure_2_map.svg) ([PDF](Figure_2_map.pdf)) ([PNG](Figure_2_map.png))-- A map showing the two original divergence hypotheses. Orange indicates areas where we will focus our collecting efforts, green area will be examined in the context of phylogeny using samples from herbaria.  
 
