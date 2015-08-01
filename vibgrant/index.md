@@ -17,7 +17,7 @@ comments: true
 
 [Figure_3 heteroblasty](Figure_3_hetero.png) : Heteroblasty in Viburnun, microcarpum, and Spriggs figure.   
 
-[Figure_4 xxx](xxx) ([PDF](xxx)) : Range of leaf shapes in hybrid swarm at Zinacantan.  
+[Figure_4 hybrids](Figure_4_hybrid.svg) ([PDF](Figure_4_hybrid.pdf)) ([PNG](Figure_4_hybrid.png)): Recombinant phenotypes seen in hybrids.  
 
 [Figure_5 Ellipses in theory](Figure_5_Ellipsetheory.svg) ([PDF](Figure_5_Ellipsetheory.pdf)) ([PNG](Figure_5_Ellipsetheory.png)) : Expectations and explanation of VCV matrices.  
 
@@ -25,7 +25,13 @@ comments: true
 
 [Figure_7 Cross section environment](Figure_7_cross.svg) ([PDF](Figure_7_cross.pdf)) ([PNG](Figure_7_cross.png)) Cross-section through Oaxaca and Chiapas with PCA environment and aerial light capture.  
 
-[Figure_9] Empirical G/D matrix, and variation.  
+[Figure_8] -- Niche models.  
+
+[Figure_9] -- Empirical G/D matrix, and variation.  
+
+[Figure_10] -- seedlings.  
+
+[Figure_11] -- Timeline.  
 
 
 ------------------------------------------   
