@@ -11,13 +11,19 @@ image:
 comments: true
 ---
 
-[Figure_2 map and hypotheses](Figure1.svg) ([PDF](Figure1.pdf))-- A map showing the two original divergence hypotheses. Orange indicates areas where we will focus our collecting efforts, green area will be examined in the context of phylogeny using samples from herbaria.  
+[Figure_1](xxx) -- contrasting leaf forms, sems, hairs, histograms.  
 
-[Figure_4 Ellipse_outline_5panel](Ellipse_outline_5panel.svg) ([PDF](Ellipse_outline_5panel.pdf)) : ...I think the final figure will be close to this.
+[Figure_2 map and hypotheses](Figure_2_map.svg) ([PDF](Figure_2_map.pdf)) ([PNG](Figure_2_map.png))-- A map showing the two original divergence hypotheses. Orange indicates areas where we will focus our collecting efforts, green area will be examined in the context of phylogeny using samples from herbaria.  
 
-[Figure_5 RADseq tree & ABBA-BABA](Figure2.svg) ([PDF](Figure2.pdf)) -- Our RADseq phylogeny for 16 species in _Oreinotinus_.  Letters on the branches indicate geographic regions from Figure 1, showing that this tree supports replicate parallel leaf divergences. (B) Morphological hybrids sampled where sister-species co-occur show genomic evidence of admixture (ABBA>BABA). (C) Introgression between lineages from adjacent regions is not supported, which provides further support that our phylogeny is correct and does not simply reflect recent gene flow.  
+[Figure_3 xxx](xxx) ([PDF](xxx)) : Heteroblasty, microcarpum, spriggs plot.  
 
-[Figure_6] Cross-section through Oaxaca and Chiapas...  
+[Figure_4 xxx](xxx) ([PDF](xxx)) : Range of leaf shapes in hybrid swarm at Zinacantan.  
+
+[Figure_5 Ellipses in theory](Figure_5_Ellipse_theory.svg) ([PDF](Figure_5_Ellipse_theory.pdf)) ([PNG](Figure_5_Ellipse_theory.png)) : Expectations and explanation of VCV matrices.  
+
+[Figure_6 RADseq tree & ABBA-BABA](Figure_6_radtree.svg) ([PDF](Figure_6_radtree.pdf)) ([PNG](Figure_6_radtree.png) -- Our RADseq phylogeny for 16 species in _Oreinotinus_. The tree supports replicate parallel leaf divergences. (B) Morphological hybrids sampled where sister-species co-occur show genomic evidence of admixture (ABBA>BABA). (C) Introgression between lineages from adjacent regions is not supported, which provides further support that our phylogeny is correct and does not simply reflect recent gene flow.  
+
+[Figure_7 Cross section environment](Figure_7_cross.svg) ([PNG](Figure_7_cross.png) Cross-section through Oaxaca and Chiapas with PCA environment and aerial light capture.  
 
 [Figure_9] Empirical G/D matrix, and variation.  
 
