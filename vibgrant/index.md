@@ -27,7 +27,7 @@ comments: true
 
 [Figure_8] -- Niche models.  
 
-[Figure_9] -- Empirical G/D matrix, and variation.  
+[Figure_9](Ellipse_Empirical.pdf) -- Empirical G/D matrix, and variation.  
 
 [Figure_10] -- seedlings.  
 
