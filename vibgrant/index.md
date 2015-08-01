@@ -19,7 +19,7 @@ comments: true
 
 [Figure_4 hybrids](Figure_4_hybrid.svg) ([PDF](Figure_4_hybrid.pdf)) ([PNG](Figure_4_hybrid.png)): Recombinant phenotypes seen in hybrids.  
 
-[Figure_5 Ellipses in theory](Figure_5_Ellipsetheory.svg) ([PDF](Figure_5_Ellipsetheory.pdf)) ([PNG](Figure_5_Ellipsetheory.png)) : Expectations and explanation of VCV matrices.  
+[Figure_5 Ellipses in theory](Figure_5_Ellipsetheory3.svg) ([PDF](Figure_5_Ellipsetheory3.pdf)) ([PNG](Figure_5_Ellipsetheory3.png)) : Expectations and explanation of VCV matrices.  
 
 [Figure_6 RADseq tree & ABBA-BABA](Figure_6_radtree.svg) ([PDF](Figure_6_radtree.pdf)) ([PNG](Figure_6_radtree.png) -- Our RADseq phylogeny for 16 species in _Oreinotinus_. The tree supports replicate parallel leaf divergences. (B) Morphological hybrids sampled where sister-species co-occur show genomic evidence of admixture (ABBA>BABA). (C) Introgression between lineages from adjacent regions is not supported, which provides further support that our phylogeny is correct and does not simply reflect recent gene flow.  
 
