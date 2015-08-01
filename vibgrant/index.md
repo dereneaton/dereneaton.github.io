@@ -15,7 +15,7 @@ comments: true
 
 [Figure_2 map and hypotheses](Figure_2_map.svg) ([PDF](Figure_2_map.pdf)) ([PNG](Figure_2_map.png))-- A map showing the two original divergence hypotheses. Orange indicates areas where we will focus our collecting efforts, green area will be examined in the context of phylogeny using samples from herbaria.  
 
-[Figure_3 xxx](xxx) ([PDF](xxx)) : Heteroblasty, microcarpum, spriggs plot.  
+[Figure_3 heteroblasty](Figure_3_hetero.png) : Heteroblasty in Viburnun, microcarpum, and Spriggs figure.   
 
 [Figure_4 xxx](xxx) ([PDF](xxx)) : Range of leaf shapes in hybrid swarm at Zinacantan.  
 
