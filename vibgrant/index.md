@@ -23,7 +23,7 @@ comments: true
 
 [Figure_6 RADseq tree & ABBA-BABA](Figure_6_radtree.svg) ([PDF](Figure_6_radtree.pdf)) ([PNG](Figure_6_radtree.png) -- Our RADseq phylogeny for 16 species in _Oreinotinus_. The tree supports replicate parallel leaf divergences. (B) Morphological hybrids sampled where sister-species co-occur show genomic evidence of admixture (ABBA>BABA). (C) Introgression between lineages from adjacent regions is not supported, which provides further support that our phylogeny is correct and does not simply reflect recent gene flow.  
 
-[Figure_7 Cross section environment](Figure_7_cross.svg) ([PNG](Figure_7_cross.png) Cross-section through Oaxaca and Chiapas with PCA environment and aerial light capture.  
+[Figure_7 Cross section environment](Figure_7_cross.svg) ([PNG](Figure_7_cross.png)) Cross-section through Oaxaca and Chiapas with PCA environment and aerial light capture.  
 
 [Figure_9] Empirical G/D matrix, and variation.  
 
