@@ -13,7 +13,7 @@ comments: true
 
 [Figure_1](Figure_1_leaves2.svg) ([PNG](Figure_1_leaves2.png)) -- contrasting leaf forms, sems, hairs, histograms.  
 
-[Figure_2 map and hypotheses](Figure_2_map.svg) ([PDF](Figure_2_map.pdf)) ([PNG](Figure_2_map.png))-- A map showing the two original divergence hypotheses. Orange indicates areas where we will focus our collecting efforts, green area will be examined in the context of phylogeny using samples from herbaria.  
+[Figure_2 map and hypotheses](Figure_2_map2.svg) ([PDF](Figure_2_map2.pdf)) ([EPS](Figure_2_map2.eps))-- A map showing the two original divergence hypotheses. Orange indicates areas where we will focus our collecting efforts, green area will be examined in the context of phylogeny using samples from herbaria.  
 
 [Figure_3 heteroblasty](Figure_3_hetero.png) : Heteroblasty in Viburnun, microcarpum, and Spriggs figure.   
 
@@ -23,7 +23,7 @@ comments: true
 
 [Figure_6 RADseq tree & ABBA-BABA](Figure_6_radtree.svg) ([PDF](Figure_6_radtree.pdf)) ([PNG](Figure_6_radtree.png) -- Our RADseq phylogeny for 16 species in _Oreinotinus_. The tree supports replicate parallel leaf divergences. (B) Morphological hybrids sampled where sister-species co-occur show genomic evidence of admixture (ABBA>BABA). (C) Introgression between lineages from adjacent regions is not supported, which provides further support that our phylogeny is correct and does not simply reflect recent gene flow.  
 
-[Figure_7 Cross section environment](Figure_7_cross2.pdf)) ([EPS](Figure_7_cross2.eps)) Cross-section through Oaxaca and Chiapas with PCA environment and aerial light capture.  
+[Figure_7 Cross section environment](Figure_7_cross3.pdf)) ([EPS](Figure_7_cross3.eps)) Cross-section through Oaxaca and Chiapas with PCA environment and aerial light capture.  
 
 [Figure_8] -- Niche models.  
 
