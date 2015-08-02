@@ -22,6 +22,8 @@ comments: true
 [Figure_5 Ellipses in theory](Figure_5_Ellipsetheory3.svg) ([PDF](Figure_5_Ellipsetheory3.pdf)) ([PNG](Figure_5_Ellipsetheory3.png)) : Expectations and explanation of VCV matrices.  
 
 [Figure_6 RADseq tree & ABBA-BABA](Figure_6_radtree.svg) ([PDF](Figure_6_radtree.pdf)) ([PNG](Figure_6_radtree.png) -- Our RADseq phylogeny for 16 species in _Oreinotinus_. The tree supports replicate parallel leaf divergences. (B) Morphological hybrids sampled where sister-species co-occur show genomic evidence of admixture (ABBA>BABA). (C) Introgression between lineages from adjacent regions is not supported, which provides further support that our phylogeny is correct and does not simply reflect recent gene flow.  
+[Figure_6 with hybrid photos](Figure_6_radtree2.svg)  
+
 
 [Figure_7 Cross section environment](Figure_7_cross3.pdf)) ([EPS](Figure_7_cross3.eps)) Cross-section through Oaxaca and Chiapas with PCA environment and aerial light capture.  
 
