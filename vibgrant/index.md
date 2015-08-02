@@ -27,13 +27,11 @@ comments: true
 
 [Figure_7 Cross section environment](Figure_7_cross3.pdf)) ([EPS](Figure_7_cross3.eps)) Cross-section through Oaxaca and Chiapas with PCA environment and aerial light capture.  
 
-[Figure_8] -- Niche models.  
+[Figure_8](Ellipse_Empirical.pdf) -- Empirical G/D matrix, and variation.  
 
-[Figure_9](Ellipse_Empirical.pdf) -- Empirical G/D matrix, and variation.  
+[Figure_9] -- seedlings.  
 
-[Figure_10] -- seedlings.  
-
-[Figure_11] -- Timeline.  
+[Figure_10] -- Timeline.  
 
 
 ------------------------------------------   
