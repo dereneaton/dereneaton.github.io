@@ -19,7 +19,7 @@ The basic functions are to parse the assembled RADseq data set (.loci file), cal
 Another reason for this post is to plug the new Python plotting library Toyplot which I’m really excited about. I won’t delve into all the details of why I think it’s great, you can check out their site for that, but the main thing toyplot has going for it is that by default it creates plots in html, making it easy to view figures on the web, and making them readily scalable, interactive, and easy to embed. The default aesthetic is also really quite pleasing, which in comparison to most plotting libraries is a pretty big deal. The code is also very minimalist which makes it easy to learn (I’m looking at you ggplot!)
 
 
-An example
+### An example
 
 Below is an example plot I created from a RADseq data set for 34 oak trees from my recent publication. If you hover over the plot the cursor shows the amount of data for any given data point, cool huh? Testing just now it seems the interactivity is a little slow on my website compared to when the plot is rendered in nbviewer (see link below). I wonder if this has to do with how my site is hosted. Anyway, the plot was actually pretty easy to make. My full code to download the data from online, calculate a shared-data matrix, and plot it with interactive popups is available here as a [jupyter notebook](http://nbviewer.ipython.org/gist/dereneaton/c8292a8febc758eb0438/toy_heatmap.ipynb).
 
