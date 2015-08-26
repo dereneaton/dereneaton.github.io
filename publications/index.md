@@ -15,14 +15,14 @@ share: false
 -----------------  
 __2015__  
 
-* __Eaton, D.A.R.__, Hipp, A., Gonzalez-Rodriguez, A. & J. Cavender-Bares. _Hybridization obscures and reveals historical relationships among the American live oaks._ In Review. ([preprint](http://biorxiv.org/content/early/2015/03/17/016238))
+* __Eaton, D.A.R.__, Hipp, A., Gonzalez-Rodriguez, A. & J. Cavender-Bares. _Hybridization obscures and reveals historical relationships among the American live oaks._ Accepted in _Evolution_. ([preprint](http://biorxiv.org/content/early/2015/03/17/016238)) [reproducible science](https://github.com/dereneaton/virentes)
 
-* Cavender-Bares, J., Gonzalez-Rodriguez, A., __Eaton, D.A.R.__, Hipp, A., Buelke, A., & P. Manos. _Phylogeny and biogeography of the American live oaks (Quercus subsection Virentes): A genomic and population genetic approach._ In Press.
+* Cavender-Bares, J., Gonzalez-Rodriguez, A., __Eaton, D.A.R.__, Hipp, A., Buelke, A., & P. Manos. _Phylogeny and biogeography of the American live oaks (Quercus subsection Virentes): A genomic and population genetic approach._ Molecular Ecology 24(14): 3668-3687.
 
 -----------------  
 __2014__  
 
-* Escudero, M., __Eaton, D.A.R.__, Hahn, M. & A. Hipp. 2014. _Genotyping-by-sequencing as a tool for phylogenetic inference and testing ancestral hybridization: A case study in Carex (Cyperaceae)_. _Molecular Phylogenetics and Evolution_. DOI: 10.1016/j.ympev.2014.06.026. (reproducible science: [notebook](http://nbviewer.ipython.org/gist/dereneaton/32382a28db11b83f6da5))
+* Escudero, M., __Eaton, D.A.R.__, Hahn, M. & A. Hipp. 2014. _Genotyping-by-sequencing as a tool for phylogenetic inference and testing ancestral hybridization: A case study in Carex (Cyperaceae)_. Molecular Phylogenetics and Evolution. 79: 359-367. DOI: 10.1016/j.ympev.2014.06.026. (reproducible science: [notebook](http://nbviewer.ipython.org/gist/dereneaton/32382a28db11b83f6da5))
 
 * Hipp, A., __Eaton, D.A.R.__, Cavender-Bares, J., Fitzek, E., Nipper, R. and P.S. Manos. 2014. _A framework phylogeny of the American oak clade based on sequenced RAD data_. PLoS ONE 9(4): e93975.
 DOI: 10.1371/journal.pone.0093975. ([open access link](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0093975))
