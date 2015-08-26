@@ -16,7 +16,7 @@ RADseq data has a reputation for containing a lot of missing data, particularly 
 
 The basic functions are to parse the assembled RADseq data set (.loci file), calculate the number of loci shared between samples, and then plot it. I focused on one of the simplest ways to visualize shared data which is with a heatmap, although this is not necessarily ideal, since it limits us to viewing only the amount of data shared by any two samples at a time.
 
-Another reason for this post is to plug the new Python plotting library Toyplot which I’m really excited about. I won’t delve into all the details of why I think it’s great, you can check out their site for that, but the main thing toyplot has going for it is that by default it creates plots in html, making it easy to view figures on the web, and making them readily scalable, interactive, and easy to embed. The default aesthetic is also really quite pleasing, which in comparison to most plotting libraries is a pretty big deal. The code is also very minimalist which makes it easy to learn (I’m looking at you ggplot!)
+Another reason for this post is to plug the new Python plotting library _Toyplot_ which I’m really excited about. I won’t delve into all the details of why I think it’s great, you can check out their site for that, but the main thing _Toyplot_ has going for it is that by default it creates plots in html, making it easy to view figures on the web, and making them readily scalable, interactive, and easy to embed. The default aesthetic is also really quite pleasing, which in comparison to most plotting libraries is a pretty big deal. The code is also very minimalist which makes it easy to learn (_I’m looking at you ggplot!_)
 
 
 ### An example
