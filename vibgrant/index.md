@@ -11,11 +11,28 @@ image:
 comments: true
 ---
 
-[Figure_1 map and hypotheses](Figure1.svg) ([PDF](Figure1.pdf))-- A map showing the two original divergence hypotheses. Orange indicates areas where we will focus our collecting efforts, green area will be examined in the context of phylogeny using samples from herbaria.  
+[Figure_1](Figure_1_leaves2.svg) ([PNG](Figure_1_leaves2.png)) -- contrasting leaf forms, sems, hairs, histograms.  
 
-[Figure_2 RADseq tree & ABBA-BABA](Figure2.svg) ([PDF](Figure2.pdf)) -- Our RADseq phylogeny for 16 species in _Oreinotinus_.  Letters on the branches indicate geographic regions from Figure 1, showing that this tree supports replicate parallel leaf divergences. (B) Morphological hybrids sampled where sister-species co-occur show genomic evidence of admixture (ABBA>BABA). (C) Introgression between lineages from adjacent regions is not supported, which provides further support that our phylogeny is correct and does not simply reflect recent gene flow.  
+[Figure_2 map and hypotheses](Figure_2_map2.svg) ([PDF](Figure_2_map2.pdf)) ([EPS](Figure_2_map2.eps))-- A map showing the two original divergence hypotheses. Orange indicates areas where we will focus our collecting efforts, green area will be examined in the context of phylogeny using samples from herbaria.  
 
-[Figure_5 Ellipse_outline](Ellipse_outline.svg) ([PDF](Ellipse_outline.pdf)) : ...I think the final figure will be close to this.
+[Figure_3 heteroblasty](Figure_3_hetero.png) : Heteroblasty in Viburnun, microcarpum, and Spriggs figure.   
+
+[Figure_4 hybrids](Figure_4_hybrid.svg) ([PDF](Figure_4_hybrid.pdf)) ([PNG](Figure_4_hybrid.png)): Recombinant phenotypes seen in hybrids.  
+
+[Figure_5 Ellipses in theory](Figure_5_Ellipsetheory3.svg) ([PDF](Figure_5_Ellipsetheory3.pdf)) ([PNG](Figure_5_Ellipsetheory3.png)) : Expectations and explanation of VCV matrices.  
+
+[Figure_6 RADseq tree & ABBA-BABA](Figure_6_radtree.svg) ([PDF](Figure_6_radtree.pdf)) ([PNG](Figure_6_radtree.png) -- Our RADseq phylogeny for 16 species in _Oreinotinus_. The tree supports replicate parallel leaf divergences. (B) Morphological hybrids sampled where sister-species co-occur show genomic evidence of admixture (ABBA>BABA). (C) Introgression between lineages from adjacent regions is not supported, which provides further support that our phylogeny is correct and does not simply reflect recent gene flow.  
+[Figure_6 with hybrid photos](Figure_6_radtree2.svg)  
+
+
+[Figure_7 Cross section environment](Figure_7_cross3.pdf)) ([EPS](Figure_7_cross3.eps)) Cross-section through Oaxaca and Chiapas with PCA environment and aerial light capture.  
+
+[Figure_8](Ellipse_Empirical.pdf) -- Empirical G/D matrix, and variation.  
+
+[Figure_9] -- seedlings.  
+
+[Figure_10] -- Timeline.  
+
 
 ------------------------------------------   
 
