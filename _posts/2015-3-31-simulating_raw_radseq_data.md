@@ -107,7 +107,6 @@ to an outgroup for creating indels.
 
 ![simtreeimage](/images/setupsims.png)
 
-
 __Output__ -- Two data files are created with the output name
 prefix (-o), which if it were 'simrads' would create
 `simrads_R1_.fastq.gz` and `simrads.barcodes`. The first is a
@@ -120,3 +119,5 @@ With these fastq data and a barcode map the data can then be
 assembled in _pyrad_. 
 
 __More info__ -- Check out the git repository: ([_simrlls.py_](https://github.com/dereneaton/simrrls))
+
+
