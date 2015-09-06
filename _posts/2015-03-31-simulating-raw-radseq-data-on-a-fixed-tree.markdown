@@ -15,186 +15,109 @@ comments: true
 ---------------------  
 
 #### github link: ([_simrlls.py_](https://github.com/dereneaton/simrrls))
-_This post has been modified for the updated v.1.04 script_.  
+_This post has been modified for the updated v.0.0.7 script_.  
 
 --------------------  
 
-This script simulates raw (fastq format) sequence data
-on a fixed species tree under the coalescent in a manner 
-that emulates restriction-site associated DNA, with slight 
-variations for different data types (e.g., RADseq, ddRAD, GBS, 
-paired-end data). 
+The program _simrrls_ can be used to simulate raw (fastq format) sequence data
+on an input topology under the coalescent in a manner that emulates 
+restriction-site associated DNA, with slight variations for different data
+types (e.g., RADseq, ddRAD, GBS, paired-end data). 
 
-I originally developed the script to generate data for bug 
-testing _pyRAD_ and to create example data sets for use in tutorials. 
-Its main purpose is for testing assembly methods
-on raw data -- if you are interested in simulating data for 
-downstream analyses I would recommend instead using my 
-([simLoci.py](/software/)) script, which simulates
-_assembled_ RADseq-like data in a number
-of formats (.phy, .nex, .geno, .migrate), 
-and includes options to allow introgression between lineages.
+It was originally developed to generate data for bug 
+testing _pyrad_ and to create example data sets for use in tutorials.
+However, I can imagine other uses for it, such
+as investigating the effects of missing data, insufficient
+sequencing coverage and error rates on assembly results. 
 
-Still, I figured a script to simulate raw data might be useful to 
-others so I am making it available with some instruction.
-To use the script you will need to first install the excellent [_Egglib_ 
-Python package](http://egglib.sourceforge.net/), 
-used here to perform the coalescent simulations, and it also requires
-the common Python package _Numpy_.
+To use the program you will need to first install the 
+[_Egglib_ Python module](http://egglib.sourceforge.net/), 
+used here to perform coalescent simulations. 
 
-__Calling the script__ -- _simrlls.py_ takes eight sequential arguments, 
-each described in more detail below:
+__Calling the script__ -- _simrlls_ 
 
-1.  Allow indels (decimal). The probability a mutation is a deletion.
-2.  Allow locus dropout (int). 0=no locus dropout.
-3.  Number of loci to sample (int; multiple of 100 or 1000)
-4.  Number of individuals per tip taxon (int; minimum 1).
-5.  Depth of sequencing (int, or (int,int)=(mean,std))
-6.  Insert size (size selection window) (int,int)=(min,max)
-7.  Data type (string; options = rad, ddrad, gbs, pairddrad, pairgbs)
-8.  Prefix name for output files (string)
+{% highlight bash %}
 
-__Fixed arguments__--
-For simplicity, a number of parameters are fixed, but these can be easily 
-edited within the script. For example, 100 bp sequences are evolved on a 
-fixed 12 taxon species tree. 
-Similarly hard-coded is a sequencing error rate of 0.0005 mutations 
-per site, and a mutation-scaled effective population 
-size (theta) per tip taxon of 0.0014. The first restriction site
-overhang is from PstI (TGCAG) and the second (used in ddRAD data) 
-is from EcoRI (AATTC). 
-The outgroup taxon in the tree "X" is not included in the output 
-data, but is used in the simulation to polarize mutations relative 
-to an outgroup for creating indels and missing data. 
+$ simrrls -h
 
-![simtreeimage](/images/setupsims.png)
+optional arguments:
+  -h, --help      show this help message and exit
+  --version       show program's version number and exit
+  -o outname      [str] output file name prefix (default 'out')
+  -mc dropout     [0/1] allelic dropout from mutation to cut sites (default 0)
+  -ms dropout     [0/1] allelic dropout from new cut sites in seq (default 0)
+  -e error        [float] sequencing error rate (default 0.0005)
+  -f datatype     [str] datatype (default rad) (options: rad, gbs, ddrad,
+                  pairddrad, pairgbs)
+  -I indels       [float] rate of indel mutations (default 0) ex: 0.001
+  -l length       [int] length of simulated sequences (default 100)
+  -L nLoci        [int] number of loci to simulate (default 100)
+  -n Ninds        [int] N individuals from each taxon (default 1)
+  -N Ne           [int] pop size (Ne for all lineages; default 5e5)
+  -t tree         [str] file name or newick string of ultrametric tree
+                  (default 12 taxon balanced tree w/ bls=1)
+  -u mu           [float] per site mutation rate (default 1e-9)
+  -df depthfunc   [str] model for sampling copies (default norm, other=exp)
+  -dm depthmean   [int] mean sampled copies in norm, 1/m for exp (default 10)
+  -ds depthstd    [int] stdev sampled copies, used with norm model (default 0)
+  -c1 cut_1       [str] restriction site 1 (default CTGCAG)
+  -c2 cut_2       [str] restriction site 1 (default CCGG)
+  -i1 min_insert  [int] total frag len = (2*l)+insert (default 100)
+  -i2 max_insert  [int] total frag len = (2*l)+insert (default 400)
+  -r1 seed_1      [int] random seed 1 (default 1234567)
+  -r2 seed_2      [int] random seed 2 (default 7654321)
 
-__arg 1__ -- Point mutations relative to the outgroup taxon "X"
-will be converted to a deletion with the probability set here (e.g., 0.01). 
-If 0, no indels are present in the data set. 
+{% end highlight %}
 
-__arg 2__ -- This option allows locus dropout to occur with a rate that is 
-scaled relative to (theta * max size selection window * length of restriction
-recognition sites). If the the maximum length of size selected fragments
-is 500, then the locus is dropped if a mutation occurs relative to the 
-outgroup such that either of the restriction recognition sites occurs 
-within the length of this fragment. The locus is also dropped if 
-a mutation occurs within the restriction site(s). Since theta and the restriction sites are fixed
-by default, the easiest way to toggle the amount of locus dropout is to 
-change the size selection window max size (see below).
-Locus dropout can be turned off (set to 0). 
-
-__arg 3__ -- Nloci is the number of loci that will be generated for the
-first sampled individual in the outgroup taxon "X" 
-(after excluding loci that would have experienced locus dropout in this sample). 
-The outgroup is not included in the output. If locus dropout is 
-turned off then all ingroup samples will also have this same number of loci. 
-If locus dropout is turned on, however, then locus dropout
-occurs by mutations relative to this sample. 
-
-__arg 4__ -- Ninds is the number of sampled individuals from each tip 
-taxon with divergence among individuals scaled by theta, which
- is fixed at 0.0014 per locus. 
-
-__arg 5__ -- Sequencing depth for diploid individuals. If an int is 
-entered then it is rounded up to the nearest even number and the 
-two alleles if present are sampled with equal frequency. E.g., depth=20
-would mean each allele is sampled 10 times. Alternatively two 
-comma-separated int values can be entered, upon which _each allele_ will 
-be sampled from a normal distribution with depth N(_mean,stdev_). An 
-example with values 10,2 could be that at one locus allele\_1 is sampled
-11 times and allele\_2 is sampled 9 times. 
-
-__arg 6__ -- Insert size. 
-This option will affect the rate at which locus dropout occurs
-and can also be used to introduce merging of paired reads, or overlap 
-of short GBS reads if the minimum insert size is <0. 
-As long as the lower range of the insert size is >0 no overlap 
-of paired end reads or GBS reads occurs. 
-Insert sizes are uniform randomly selected from within the 
-user supplied size window. The total size selected fragments are 
-200bp + insert size. 
-
-__arg 7__ -- This arguments determines the data type. 
-Depending on the choice the script will put cut sites and barcodes in 
+__Datatypes__--  
+RAD is the default type for which a barcode and restriction site overhang are 
+attached to the left side of single end reads. 
+Depending on the data type selected _simrrls_ will put cut sites and barcodes in 
 the proper ends of sequences so that they emulate RAD, GBS, or ddRAD 
 data, single or paired-end. The choice also effects how locus dropout occurs 
 (i.e., one or two cutters present).
 
-#### Calling the script
-{% highlight bash %}
-python simrrls.py 0.01 1 1000 10 20 400,800 rad simrads
-{% endhighlight %}
+__Allelic Dropout__--
+There are two ways in which allelic dropout (mutation-disruption) can
+occur, each of which can be toggled. The first is mutations to the cut 
+site recognition sequence (-mc). If this is turned on then an allele 
+will be dropped if a mutation occurs within the length of the restriction
+recognition sites determined by the cutters (-c1 and -c2) and the data 
+type (-f) which determines whether one or two cutters are used (e.g., rad
+is a single cutter, ddrad is double-cutter). The other form of mutation
+disruption occurs when mutations give rise to new cut sites within the 
+length of a selected fragment (-ms). Here the total fragment length is determined
+by (-l) and the max insert length (-i2), and the probability of disruption
+by the cutters (-c1 and -c2), and the substitution rate (-N and -u). 
 
-_The following will be printed to the screen_  
-{% highlight bash %}  
-simulating rad data
-1000 loci at 20X coverage
-10 samples per taxon across 12 tip taxa
-indels arise at frequency of 0.0100 per mutation
-locus dropout = True
-size selection window = 400,800
-sequencing error rate = 0.0005
-theta=4Nu= 0.0014
-{% endhighlight %}
 
-__Output__ -- Two data files are created, for our example these
-are `simrads_R1_.fastq.gz` and `simrads.barcodes`. The first is a
+__Sequencing coverage and error__--  
+Another source of missing data in RADseq data sets is low sequencing coverage. 
+You can set the sampling rate as the number of reads that are sampled from 
+each haplotype. The mean (-dm) and standard deviation (-ds). To examine the 
+effect sequencing rate has on base calls, etc., you could combine low 
+coverage sequencing with a high error rate (-e). 
+
+
+__Topology__--
+Data are simulated under a Jukes-Cantor model with equal base frequencies. 
+If there is no user-supplied topology (-t) then simrrls uses a default 12 
+tip topology, shown below. The outgroup taxon in the tree "X" is not 
+included in the output, but is used to polarize mutations relative 
+to an outgroup for creating indels. 
+
+![simtreeimage](/images/setupsims.png)
+
+
+__Output__ -- Two data files are created with the output name
+prefix (-o), which if it were 'simrads' would create
+`simrads_R1_.fastq.gz` and `simrads.barcodes`. The first is a
 compressed fastq file with sequence data and the 
-latter is a text file mapping 
-barcodes to sample names. If you select a paired-end data 
-type it will create two sequence files, one with "\_R1\_" 
+latter is a text file mapping barcodes to sample names. 
+If you selected paired-end data it would create 
+two sequence files, one with "\_R1\_" 
 in the name and the other with "\_R2\_". 
-With the data and a barcode map the data can then be analyzed
-in either _pyRAD_ or a similar program such as _stacks_. 
+With these fastq data and a barcode map the data can then be 
+assembled in _pyrad_. 
 
-_simrads.barcodes (only the first few lines)_  
-{% highlight bash %}
-1A0     CATCAT
-1A1     TTTTGG
-1B0     GGAGTA
-1B1     TAAGTT
-1C0     TGAGGT
-1C1     TTAAGT
-1D0     AATAGG
-1D1     TGGGGG
-2E0     TAAAAG
-2E1     TGATTA
-{% endhighlight %}
-
-_simrads\_R1\_.fastq.gz (only the first few lines)_  
-{% highlight bash %}
-@lane1_locus1_0_R1_0 1:N:0:
-ATAGGGTGCAGTTTGGGAAAATTGAGTGAACCCCGGCGTGATCTAGCCCGCGCAGAAGAGGATGACCGCTGCGCCTCTCACTCACTTATGCTACTAATAC
-+
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-@lane1_locus1_0_R1_1 1:N:0:
-ATAGGGTGCAGTTTGGGAAAATTGAGTGAACCCCGGCGTGATCTAGCCCGCGCAGAAGAGGATGACCGCTGCGCCTCTCACTCACTTATGCTACTAATAC
-+
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-@lane1_locus1_0_R1_2 1:N:0:
-ATAGGGTGCAGTTTGGGAAAATTGAGTGAACCCCGGCGTGATCTAGCCCGCGCAGAAGAGGATGACCGCTGCGCCTCTCACTCACTTATGCTACTAATAC
-+
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-@lane1_locus1_0_R1_3 1:N:0:
-ATAGGGTGCAGTTTGGGAAAATTGAGTGAACCCCGGCGTGATCTAGCCCGCGCAGAAGAGGATGACCGCTGCGCCTCTCACTCACTTATGCTACTAATAC
-+
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-{% endhighlight %}
-
-
-#### Some more examples: 
-For an ideal data set used in testing _pyRAD_ I would simulate data with equal coverage across loci, without indels, and with no locus dropout:
-{% highlight bash %}
-python simrlls.py 0.00 0 1000 1 20 100,400 rad simrads_testing
-{% endhighlight %}
-
-If I wanted to emulate real data I would input variable coverage across loci, include indel variation and locus dropout:
-{% highlight bash %}
-python simrlls.py 0.01 1 1000 5 10,5 100,400 rad simrads_realistic
-{% endhighlight %}
-
-And if I wanted to test the ability of _pyRAD_ (or pyRAD in combination with PEAR read merging) to filter out overlapping paired-end reads I would simulate paired-end data with a size selection window smaller than the paired read lengths:
-{% highlight bash %}
-python simrlls.py 0.00 0 1000 1 20 -50,200 pairddrad pairddrad_w_merging
-{% endhighlight %}
+__More info__ -- Check out the git repository: ([_simrlls.py_](https://github.com/dereneaton/simrrls))
