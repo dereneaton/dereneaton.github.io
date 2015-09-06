@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "Simulating raw RADseq data on a fixed tree"
-modified: 2015-04-01
-categories: radseq
-excerpt: "fastq data for testing assembly"
+title: "Simulating raw RADseq data"
+modified: 2015-09-06
+category: radseq
 tags: [radseq, phylogeny]
 image:
   feature: header.png
   credit: Deren Eaton
-date: 2015-03-31T18:24:18-04:00
 comments: true
+date: 2015-03-31 16:58:29 -0400
 ---
 
 ---------------------  
