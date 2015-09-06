@@ -13,8 +13,8 @@ date: 2015-03-31 16:58:29 -0400
 
 ---------------------  
 
-#### github link: ([_simrlls.py_](https://github.com/dereneaton/simrrls))
-_This post has been modified for the updated v.0.0.7 script_.  
+__github download link:__ ([_simrlls_](https://github.com/dereneaton/simrrls))  
+_This post has been modified for the updated v.0.0.8 script_.  
 
 --------------------  
 
@@ -33,7 +33,7 @@ To use the program you will need to first install the
 [_Egglib_ Python module](http://egglib.sourceforge.net/), 
 used here to perform coalescent simulations. 
 
-__Calling the script__ -- _simrlls_ 
+__Calling the script__ -- _simrrls_ 
 
 {% highlight bash %}
 
@@ -68,7 +68,7 @@ optional arguments:
 
 {% endhighlight %}
 
-__Datatypes__--  
+__Datatypes__--
 RAD is the default type for which a barcode and restriction site overhang are 
 attached to the left side of single end reads. 
 Depending on the data type selected _simrrls_ will put cut sites and barcodes in 
@@ -90,7 +90,7 @@ by (-l) and the max insert length (-i2), and the probability of disruption
 by the cutters (-c1 and -c2), and the substitution rate (-N and -u). 
 
 
-__Sequencing coverage and error__--  
+__Sequencing coverage and error__--
 Another source of missing data in RADseq data sets is low sequencing coverage. 
 You can set the sampling rate as the number of reads that are sampled from 
 each haplotype. The mean (-dm) and standard deviation (-ds). To examine the 
@@ -101,15 +101,16 @@ coverage sequencing with a high error rate (-e).
 __Topology__--
 Data are simulated under a Jukes-Cantor model with equal base frequencies. 
 If there is no user-supplied topology (-t) then simrrls uses a default 12 
-tip topology, shown below. The outgroup taxon in the tree "X" is not 
+tip topology, shown below. Branch lengths are in coalescent units. 
+The outgroup taxon in the tree "X" is not 
 included in the output, but is used to polarize mutations relative 
 to an outgroup for creating indels. 
 
 ![simtreeimage](/images/setupsims.png)
 
-__Output__ -- Two data files are created with the output name
-prefix (-o), which if it were 'simrads' would create
-`simrads_R1_.fastq.gz` and `simrads.barcodes`. The first is a
+__Output__ -- Two data files are created using the output name
+prefix (-o), which if it were 'testrad' would create
+`testrad_R1_.fastq.gz` and `testrad_barcodes.txt`. The first is a
 compressed fastq file with sequence data and the 
 latter is a text file mapping barcodes to sample names. 
 If you selected paired-end data it would create 
@@ -117,6 +118,33 @@ two sequence files, one with "\_R1\_"
 in the name and the other with "\_R2\_". 
 With these fastq data and a barcode map the data can then be 
 assembled in _pyrad_. 
+
+__Examples__ --   
+
+Modified population parameters:
+
+{% highlight bash %}
+$ simrrls -o test2 -N 1e6 -u 2e-8
+{% endhighlight %}
+
+Modified sequencing parameters:
+
+{% highlight bash %}
+$ simrrls -o test3 -L 5000 -l 200 -e 0.001 -dm 10 -ds 2
+{% endhighlight %}
+
+Modified library type (In this case allowing paired-end reads overlap):
+
+{% highlight bash %}
+$ simrrls -o test4 -f pairddrad -i1 -50 -i2 200
+{% endhighlight %}
+
+Modified topology:
+
+{% highlight bash %}
+$ echo "((a:1,b:1):1,c:2);" > treefile
+$ simrrls -o test5 -t treefile
+{% endhighlight %}
 
 __More info__ -- Check out the git repository: ([_simrlls.py_](https://github.com/dereneaton/simrrls))
 
