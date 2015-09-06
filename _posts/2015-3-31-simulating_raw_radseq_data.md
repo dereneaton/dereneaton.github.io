@@ -66,7 +66,7 @@ optional arguments:
   -r1 seed_1      [int] random seed 1 (default 1234567)
   -r2 seed_2      [int] random seed 2 (default 7654321)
 
-{% end highlight %}
+{% endhighlight %}
 
 __Datatypes__--  
 RAD is the default type for which a barcode and restriction site overhang are 
