@@ -3,6 +3,7 @@ layout: post
 title: "Simulating raw RADseq data"
 modified: 2015-09-06
 category: radseq
+excerpt: "under different topologies, library types, and popgen parameters"
 tags: [radseq, phylogeny]
 image:
   feature: header.png

@@ -2,6 +2,7 @@
 layout: post
 title: "Interactive visualization of RADseq data"
 category: radseq
+excerpt: "Using the Toyplot library to analyze pyrad results"
 tags: [radseq, toyplot, python]
 image:
   feature: header.png
