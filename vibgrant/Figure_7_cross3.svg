@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="735.28557"
-     inkscape:cy="-171.02545"
+     inkscape:zoom="1"
+     inkscape:cx="625.75979"
+     inkscape:cy="183.54556"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2111,12 +2111,12 @@
     <text
        sodipodi:linespacing="125%"
        id="text5046"
-       y="885.06488"
+       y="886.06488"
        x="511.19403"
        style="font-size:5.61640453px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
          style="font-size:12.56924534px;font-style:italic;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-         y="885.06488"
+         y="886.06488"
          x="511.19403"
          id="tspan5048"
          sodipodi:role="line">V. jucundum</tspan></text>
@@ -2148,15 +2148,15 @@
     <text
        xml:space="preserve"
        style="font-size:5.61640453px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="511.19403"
+       x="512.19403"
        y="898.81573"
        id="text5062"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5064"
-         x="511.19403"
+         x="512.19403"
          y="898.81573"
-         style="font-size:12.56924534px;font-style:italic;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">Hyb. swarm</tspan></text>
+         style="font-size:12.56924534px;font-style:italic;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">juc plateau</tspan></text>
     <g
        transform="matrix(0.75907388,0,0,-0.75907388,294.32569,1261.6256)"
        id="g5068"
@@ -2186,14 +2186,14 @@
        sodipodi:linespacing="125%"
        id="text5078"
        y="911.98895"
-       x="511.19403"
+       x="512.19403"
        style="font-size:5.61640453px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
          style="font-size:12.56924534px;font-style:italic;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="911.98895"
-         x="511.19403"
+         x="512.19403"
          id="tspan5080"
-         sodipodi:role="line">Hyb. swarm</tspan></text>
+         sodipodi:role="line">lau plateau</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.92018795px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -2354,16 +2354,16 @@
        id="text32404"
        y="603.97156"
        x="-1002.5507"
-       style="font-size:7.51841354px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:9px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
          id="tspan32408"
-         style="font-size:6.33582973px;text-align:center;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         style="font-size:9px;text-align:center;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="603.97156"
          x="-1002.5507"
-         sodipodi:role="line">2</tspan></text>
+         sodipodi:role="line">0.2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:7.51841354px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:9px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        x="-971.32422"
        y="603.97156"
        id="text32412"
@@ -2372,24 +2372,24 @@
          sodipodi:role="line"
          x="-971.32422"
          y="603.97156"
-         style="font-size:6.33582973px;text-align:center;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-         id="tspan32414">4</tspan></text>
+         style="font-size:9px;text-align:center;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         id="tspan32414">0.4</tspan></text>
     <text
        transform="matrix(0,-1,1,0,0,0)"
        sodipodi:linespacing="125%"
        id="text32416"
        y="603.97156"
        x="-941.00275"
-       style="font-size:7.51841354px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:9px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
          id="tspan32418"
-         style="font-size:6.33582973px;text-align:center;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         style="font-size:9px;text-align:center;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="603.97156"
          x="-941.00275"
-         sodipodi:role="line">6</tspan></text>
+         sodipodi:role="line">0.6</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:7.51841354px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:9px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        x="-910.68121"
        y="603.97156"
        id="text32420"
@@ -2398,8 +2398,8 @@
          sodipodi:role="line"
          x="-910.68121"
          y="603.97156"
-         style="font-size:6.33582973px;text-align:center;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-         id="tspan32422">8</tspan></text>
+         style="font-size:9px;text-align:center;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         id="tspan32422">0.8</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:8.14606571px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -2782,37 +2782,37 @@
            x="80.998436"
            style="font-size:41.3261261px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
            xml:space="preserve"><tspan
-             style="font-size:32.14254379px;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+             style="font-size:28.6648922px;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
              y="-384.47565"
              x="80.998436"
              id="tspan5013"
-             sodipodi:role="line">2000</tspan></text>
+             sodipodi:role="line">2000m.</tspan></text>
         <text
            xml:space="preserve"
            style="font-size:41.3261261px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-           x="337.17776"
-           y="-61.970909"
+           x="332.15848"
+           y="-60.364578"
            id="text5019"
            sodipodi:linespacing="125%"
            transform="matrix(0.55472427,0.83203425,0.83203425,-0.55472427,0,0)"><tspan
              sodipodi:role="line"
              id="tspan5021"
-             x="337.17776"
-             y="-61.970909"
-             style="font-size:27.55075264px;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">1500</tspan></text>
+             x="332.15848"
+             y="-60.364578"
+             style="font-size:24.56990814px;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">1500m.</tspan></text>
         <text
            transform="matrix(0.84771711,-0.53044859,-0.53044859,-0.84771711,0,0)"
            sodipodi:linespacing="125%"
            id="text5023"
-           y="-400.07938"
-           x="105.46526"
+           y="-401.91675"
+           x="97.484055"
            style="font-size:41.3261261px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
            xml:space="preserve"><tspan
-             style="font-size:27.55075264px;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-             y="-400.07938"
-             x="105.46526"
+             style="font-size:26.61739922px;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+             y="-401.91675"
+             x="97.484055"
              id="tspan5025"
-             sodipodi:role="line">1000</tspan></text>
+             sodipodi:role="line">1000m.</tspan></text>
       </g>
     </g>
     <g
@@ -3530,7 +3530,7 @@
          id="tspan5521"
          x="688.18939"
          y="847.1358"
-         style="font-size:14px;text-align:center;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">(D) Proportion of potential sunlight </tspan><tspan
+         style="font-size:14px;text-align:center;text-anchor:middle;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">(D) Proportion of radiation </tspan><tspan
          sodipodi:role="line"
          x="686.43939"
          y="864.6358"
@@ -3539,13 +3539,13 @@
     <text
        sodipodi:linespacing="125%"
        id="text5529"
-       y="595.95001"
+       y="592.95001"
        x="-995.82782"
        style="font-size:9.37093163px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"
        transform="matrix(0,-1,1,0,0,0)"><tspan
          style="font-size:11.50168705px;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-         y="595.95001"
+         y="592.95001"
          x="-995.82782"
          id="tspan5531"
          sodipodi:role="line">Global site factor </tspan></text>

@@ -14,10 +14,10 @@
    id="svg3311"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   inkscape:export-filename="/home/deren/Desktop/test.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300"
-   sodipodi:docname="Figure5.svg">
+   inkscape:export-filename="/home/deren/dereneaton.github.io/vibgrant/Figure_6_radtree.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600"
+   sodipodi:docname="Figure_6_radtree.svg">
   <defs
      id="defs3313">
     <clipPath
@@ -55,16 +55,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.28"
-     inkscape:cx="281.88417"
-     inkscape:cy="227.05297"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="317.655"
+     inkscape:cy="303.18489"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="982"
      inkscape:window-height="769"
-     inkscape:window-x="145"
-     inkscape:window-y="83"
+     inkscape:window-x="232"
+     inkscape:window-y="53"
      inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
@@ -82,7 +82,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -784,16 +784,16 @@
        id="g4959-3" />
     <text
        xml:space="preserve"
-       style="font-size:11.85595608px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="497.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
        y="752.7251"
        id="text5336-2"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5338-4"
-         x="497.84454"
+         x="495.84454"
          y="752.7251"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">V. sulcatum</tspan></text>
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">V. sulcatum</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        style="fill:none;stroke:#262626;stroke-width:2.45582294;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -870,36 +870,36 @@
        sodipodi:linespacing="125%"
        id="text7210"
        y="724.90833"
-       x="497.84454"
-       style="font-size:11.85595608px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="724.90833"
-         x="497.84454"
+         x="495.84454"
          id="tspan7212"
          sodipodi:role="line">V. sulcatum</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11.85595608px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="497.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
        y="695.32385"
        id="text7214"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7216"
-         x="497.84454"
+         x="495.84454"
          y="695.32385"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">V. sulcatum</tspan></text>
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">V. sulcatum</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text7218"
        y="666.22803"
-       x="497.84454"
-       style="font-size:11.85595608px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="666.22803"
-         x="497.84454"
+         x="495.84454"
          id="tspan7220"
          sodipodi:role="line">hybrid</tspan></text>
     <path
@@ -984,60 +984,60 @@
        sodipodi:linespacing="125%"
        id="text7280"
        y="581.72791"
-       x="497.84454"
-       style="font-size:11.85595608px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="581.72791"
-         x="497.84454"
+         x="495.84454"
          id="tspan7282"
          sodipodi:role="line">V. acutifolium</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11.85595608px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="497.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
        y="553.91113"
        id="text7284"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7286"
-         x="497.84454"
+         x="495.84454"
          y="553.91113"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">V. acutifolium</tspan></text>
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">V. acutifolium</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text7288"
        y="526.09436"
-       x="497.84454"
-       style="font-size:11.85595608px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="526.09436"
-         x="497.84454"
+         x="495.84454"
          id="tspan7290"
          sodipodi:role="line">V. acutifolium</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11.85595608px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="497.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
        y="610.84198"
        id="text7292"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7294"
-         x="497.84454"
+         x="495.84454"
          y="610.84198"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">hybrid</tspan></text>
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">hybrid</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text7296"
        y="637.61578"
-       x="497.84454"
-       style="font-size:11.85595608px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="637.61578"
-         x="497.84454"
+         x="495.84454"
          id="tspan7298"
          sodipodi:role="line">hybrid</tspan></text>
     <path
@@ -1073,12 +1073,12 @@
        sodipodi:linespacing="125%"
        id="text7312"
        y="876.10547"
-       x="497.84454"
-       style="font-size:11.85595608000000034px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="876.10547"
-         x="497.84454"
+         x="495.84454"
          id="tspan7314"
          sodipodi:role="line">V. lautum</tspan></text>
     <path
@@ -1111,40 +1111,40 @@
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-size:11.85595608000000034px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="497.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
        y="848.2887"
        id="text7344"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7346"
-         x="497.84454"
+         x="495.84454"
          y="848.2887"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">hybrid</tspan></text>
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">hybrid</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text7348"
        y="820.47192"
-       x="497.84454"
-       style="font-size:11.85595608000000034px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="820.47192"
-         x="497.84454"
+         x="495.84454"
          id="tspan7350"
          sodipodi:role="line">hybrid</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11.85595608000000034px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="497.84454"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="495.84454"
        y="794.78339"
        id="text7352"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7354"
-         x="497.84454"
+         x="495.84454"
          y="794.78339"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">V. jucundum</tspan></text>
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">V. jucundum</tspan></text>
     <path
        style="fill:none;stroke:#262626;stroke-width:2.45582294000000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 428.53429,831.39979 0,41.50817"
@@ -1443,16 +1443,16 @@
        id="text7799"
        y="1038.226"
        x="348.50305"
-       style="font-size:11.85595608000000034px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
-         style="font-size:11.94512272000000053px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="1038.226"
          x="348.50305"
          id="tspan7801"
          sodipodi:role="line">acut.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11.85595608000000034px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        x="383.5809"
        y="1038.226"
        id="text7803"
@@ -1461,22 +1461,22 @@
          id="tspan7805"
          x="383.5809"
          y="1038.226"
-         style="font-size:11.94512272000000053px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">sulc.</tspan></text>
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">sulc.</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text7807"
        y="1038.226"
        x="416.57495"
-       style="font-size:11.85595608000000034px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
-         style="font-size:11.94512272000000053px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="1038.226"
          x="416.57495"
          id="tspan7809"
          sodipodi:role="line">juc.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11.85595608000000034px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        x="484.64694"
        y="1038.226"
        id="text7811"
@@ -1485,22 +1485,22 @@
          id="tspan7813"
          x="484.64694"
          y="1038.226"
-         style="font-size:11.94512272000000053px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">juc.</tspan></text>
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">juc.</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text7815"
        y="1038.226"
        x="514.86255"
-       style="font-size:11.85595608000000034px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
-         style="font-size:11.94512272000000053px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          y="1038.226"
          x="514.86255"
          id="tspan7817"
          sodipodi:role="line">lau.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11.85595608000000034px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        x="544.38354"
        y="1038.226"
        id="text7819"
@@ -1509,7 +1509,7 @@
          id="tspan7821"
          x="544.38354"
          y="1038.226"
-         style="font-size:11.94512272000000053px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">acut.</tspan></text>
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">acut.</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24.76074028px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
@@ -1567,7 +1567,7 @@
          id="tspan3277">(C)</tspan></text>
     <path
        transform="matrix(0.46312349,0,0,0.46312349,143.22451,665.80316)"
-       d="m 38,574 a 12,12 0 1 1 -24,0 12,12 0 1 1 24,0 z"
+       d="m 38,574 c 0,6.62742 -5.372583,12 -12,12 -6.627417,0 -12,-5.37258 -12,-12 0,-6.62742 5.372583,-12 12,-12 6.627417,0 12,5.37258 12,12 z"
        sodipodi:ry="12"
        sodipodi:rx="12"
        sodipodi:cy="574"
@@ -1643,7 +1643,7 @@
        sodipodi:cy="574"
        sodipodi:rx="12"
        sodipodi:ry="12"
-       d="m 38,574 a 12,12 0 1 1 -24,0 12,12 0 1 1 24,0 z"
+       d="m 38,574 c 0,6.62742 -5.372583,12 -12,12 -6.627417,0 -12,-5.37258 -12,-12 0,-6.62742 5.372583,-12 12,-12 6.627417,0 12,5.37258 12,12 z"
        transform="matrix(0.52738052,0,0,0.52738052,109.29664,667.45675)" />
     <path
        transform="matrix(0.52738052,0,0,0.52738052,88.29664,620.20675)"
@@ -1693,7 +1693,7 @@
        sodipodi:cy="574"
        sodipodi:rx="12"
        sodipodi:ry="12"
-       d="m 38,574 a 12,12 0 1 1 -24,0 12,12 0 1 1 24,0 z"
+       d="m 38,574 c 0,6.62742 -5.372583,12 -12,12 -6.627417,0 -12,-5.37258 -12,-12 0,-6.62742 5.372583,-12 12,-12 6.627417,0 12,5.37258 12,12 z"
        transform="matrix(0.46312349,0,0,0.46312349,142.67208,741.05316)" />
     <path
        sodipodi:type="arc"
@@ -2136,5 +2136,15 @@
          id="tspan3465"
          x="69.53125"
          y="810.56531">*</tspan></text>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3316"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:18px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3318"><rect
+           id="rect3320"
+           width="138.1068"
+           height="262.95532"
+           x="483.92621"
+           y="55.306808" /></flowRegion><flowPara
+         id="flowPara3322"></flowPara></flowRoot>  </g>
 </svg>
