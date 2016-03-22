@@ -1,0 +1,291 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt]{article}
+\usepackage{fontspec} 
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{textwidth=5.2in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}%{Times New Roman}
+\setmonofont[Scale=0.8]{Linux Libertine O}%Times New Roman}
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize} 
+\subsubsectionfont{\mdseries\upshape\large} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[dvipdfm, bookmarks, colorlinks, breaklinks, 
+% ---- FILL IN HERE THE TITLE AND AUTHOR
+	pdftitle={Deren Eaton - vita},
+	pdfauthor={Deren Eaton},
+	pdfproducer={http://nitens.org/taraborelli/cvtex}
+]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
+
+% DOCUMENT
+\begin{document}
+{\LARGE Deren A. R. Eaton}\\[.7cm]
+ Yale University \\
+21 Sachem St. Office 366\\
+New Haven, CT 06511, U.S.A.\\[.2cm]
+Phone: \texttt{715-864-9358}\\
+Email: \href{mailto:deren.eaton@yale.edu}{deren.eaton@yale.edu}\\
+\textsc{url}: \href{http://www.dereneaton.com}{http://www.dereneaton.com}\\
+
+%[0.25cm]
+%\vfill
+% Born:  March 12, 1879---Ulm, Germany\\
+%Nationality:  German/American
+
+%%\hrule
+\section*{Current position}
+\emph{Postdoctoral Researcher}, Yale University\\
+Adviser: Michael Donoghue\\
+
+%\section*{Areas of specialization}
+% Evolution • Ecology • Bioinformatics • Botany
+
+%%\hrule
+\section*{Appointments held}
+\noindent
+\years{2004-2005}Research Technician, University of Minnesota\\
+\years{2005-2006}Research Assistant, University of Minnesota\\
+\years{2006-2007}Undergraduate Teaching Assistant, University of Minnesota\\
+\years{2007-2008}Research Fellow, Brown University\\
+\years{2008-2013}Graduate Teaching Assistant, University of Chicago\\
+\years{2014-2016}Postdoctoral Researcher, Yale University\\
+
+%\hrule
+\section*{Education}
+\noindent
+\years{2007}\textsc{BSc} in Plant Biology, University of Minnesota \\
+\years{2007}\textsc{BSc} in Ecology, Evolution and Behavior, University of Minnesota\\
+-- Thesis adviser: Jeannine Cavender-Bares\\
+\years{2013}\textsc{PhD} in Evolutionary Biology, University of Chicago\\
+-- Thesis adviser: Richard Ree\\
+
+%\hrule
+\section*{Fellowships, Grants and awards}
+\subsection*{Fellowships}
+\noindent
+\years{2010}NSF East Asian Pacific Summer Institutes Fellowship\\
+\years{2011}Lester Armour Graduate Student Fellowship, Field Museum\\
+\subsection*{Grants}
+\noindent
+\years{2009}Pritzker Laboratory Grant, Field Museum\\
+\years{2011}Hinds Fund Grant, University of Chicago\\
+\years{2011}NSF Doctoral Dissertation Improvement Grant\\
+\years{------}NSF DEB Invited Full Proposal (co-PI) \emph{Currently In Review}\\
+\subsection*{Awards}
+\noindent
+\years{2004-2007}Soil, Water, Climate Department scholarship, U Minnesota\\
+\years{2004-2006}College of Agriculture, Food and Environmental Sciences scholarship, U Minnesota\\
+\years{2005-2007}Dean's list scholarship, U Minnesota\\
+\years{2007}Ernst Abbe Award for Plant Biology Majors, U Minnesota\\
+\years{2007}Honors, \emph{summa cum laude}, U Minnesota\\
+\years{2008}NSF Graduate Research Fellowship, honorable mention\\
+\years{2012}Micromorph workshop travel award, Harvard University\\
+\years{2015}Postdoctoral Scholars Travel Award, Yale University\\
+
+
+\section*{Publications and talks}
+
+\subsection*{Journal articles}
+\noindent
+\years{2012}{\bf Eaton, D.A.R.}, Fenster, C.B., Hereford, J., Huang, S-Q. and R.H. Ree (2012). ``Floral diversity and community structure in \emph{Pedicularis} (Orobanchaceae)'', \emph{Ecology}, 93: S182-S194.\\
+\years{2013}Fournier-Level A., Wilczek, A.M., Cooper, M.D., Roe, J.L, Anderson, J.A., {\bf Eaton, D.A.R.}, Moyers, B.T., Petipas, R.H., Schaeffer, R.N., Pieper, B., Reymond, M., Koorneef, M., Welch, S.M., Remington, D.L. and J.S. Schmitt (2013). ``Paths to selection on life-history loci in different natural environments across the native range of \emph{Arabidopsis thaliana}''. \emph{Molecular Ecology}, 22: 3552-3566.\\
+\years{2013}Wang, X., Zhao, L., {\bf Eaton, D.A.R.} and Z. Guo (2013). ``Identification of SNP markers for inferring phylogeny in temperate Bamboos (Poaceae: Bambusoideae) using RAD tag sequencing''. \emph{Molecular Ecology Resources}, 13: 938-945.\\
+\years{2013}{\bf Eaton, D.A.R.} and R.H. Ree (2013). ``Inferring Phylogeny and Introgression using genomic RADseq Data: An Example from Flowering Plants (\emph{Pedicularis}: Orobanchaceae)''. \emph{Systematic Biology}, 62: 689-706.\\
+\years{2014}Hipp, A., {\bf Eaton, D.A.R.}, Cavender-Bares, J., Fitzek, E., Nipper, R. and P. Manos (2014). ``A framework phylogeny of the New World oak clade based on sequenced RAD data''. \emph{PLoS ONE} 9(4): e93975.\\
+\years{2014}{\bf Eaton, D.A.R.} (2014). ``PyRAD: \emph{de novo} Assembly of RAD/GBS data for phylogenetic and introgression analyses''. \emph{Bioinformatics}, 30(13): 1844-1849.\\
+\years{2014}{\bf Eaton, D.A.R.} (2014). ``On the Evolutionary Consequences of Interspecific Reproductive Interactions''. \emph{PhD dissertation}.\\
+\years{2014}Escudero, M., {\bf Eaton, D.A.R.}, Hahn, M. and A. Hipp (2014). ``Genotyping-by-sequencing as a tool for phylogenetic inference and testing ancestral hybridization: A case study in \emph{Carex} (Cyperaceae)''. \emph{Molecular Phylogenetics and Evolution} 79: 359-367.\\
+\years{2015}Cavender-Bares, J., Gonzalez-Rodriguez, A., {\bf Eaton, D.A.R.}, Hipp, A., Buelke, A., and P. Manos (2015). ``Phylogeny and biogeography of the American live oaks (\emph{Quercus} subsection Virentes): A genomic and population genetic approach''. \emph{Molecular Ecology}, 24(14): 3668-3687.\\
+\years{2015}{\bf Eaton, D.A.R.}, Hipp, A., Gonzalez-Rodriguez, A. and J. Cavender-Bares (2015). ``Historical introgression among the American live oaks and the comparative nature of tests for introgression''. \emph{Evolution}. Accepted, In Press. 
+
+\subsection*{Journal Articles In Prep}
+\noindent
+\years{------}{\bf Eaton, D.A.R.}, Huang S-Q. and R.H. Ree (In Prep). ``Interspecific reproductive character displacement promotes intraspecific floral divergence in a widespread alpine plant species''.\\
+\years{------}{\bf Eaton, D.A.R.}, Ree, R.H. and S-Q. Huang (In Prep). ``Evolutionary constraint and pollen-pistil relationships above and below the species-level in Chinese \emph{Pedicularis}''.\\
+\years{------}{\bf Eaton, D.A.R.}, Spriggs, E., Park, B. and M.J. Donoghue (In Prep). ``Misconceptions on missing data in RADseq phylogenetics with a deep-scale example from flowering plants (\emph{Viburnum}: Adoxaceae)''.\\
+\years{------}Forsman, Z.H., Knapp, I.S.S., {\bf Eaton, D.A.R.}, Belcaid, M. and R.J. Toonen (In Prep). ``Identifying loci from metagenomic RAD seq data; whole mitochondrial genomes, ribosomal genes, and other large contigs from the coral holobiont provides insights into the \emph{Porites lobata/compressa} species complex''.\\
+
+\subsection*{Popular writing}
+\noindent
+\years{2013}Hipp, A.L., Manos, P.S., Cavender-bares, J.C., {\bf Eaton, D.A.R.}, and R. Nipper. ``Using Phylogenomics to infer the evolutionary history of Oaks''. \emph{The Journal of International Oaks}. International Oak Journal, 24: 61-71.\\
+\years{2015}{\bf Eaton, D.A.R.} Personal writing/blog posts at \href{http://www.dereneaton.com}{http://www.dereneaton.com}\\
+
+
+\subsection*{Invited talks}
+\years{2012}Shangri-la Alpine Botanic Garden, Yunnan, China, S-Q. Huang Lab\\
+\emph{Floral diversity and phylogenetic community ecology in \emph{Pedicularis}}\\
+\years{2012}University of Illinois at Chicago -- EEB Department Seminar\\
+\emph{Introgression, isolation and interference: reproductive conflict in a diverse clade of flowering plants}\\
+\years{2012}Arnold Arboretum, Harvard University -- MicroMorph workshop\\
+\emph{Introgression, isolation and interference: reproductive conflict in a diverse clade of flowering plants}\\
+\years{2013}Field Museum -- Chicago Plant Sciences Symposium\\
+\emph{Isolation, introgression and floral divergence in \emph{Pedicularis} as revealed through genomic RAD sequences''}\\
+\years{2013}Yale University -- Donoghue/Near lab Seminar\\
+\emph{Evolutionary consequences of interspecific reproductive interactions in \emph{Pedicularis}}.\\
+\years{2013}Ernst Mayr Symposium -- Evolution meeting, Snowbird, Utah\\
+\emph{Detecting genomic introgression at the phylogenetic scale}\\
+\years{2014}Yale University -- EEB Department Seminar\\
+\emph{Inferring phylogeny and introgression from genomic RADseq data}\\
+\years{2015}Hawaii Institute of Marine Biology -- Department Seminar\\
+\emph{Insights from clade-level phylogenomics across evolutionary scales}\\
+\years{2015}University of Hawaii at Manoa -- EEB Department Seminar\\
+\emph{Insights from clade-level phylogenomics across evolutionary scales}\\
+\years{2015}Harvard University -- C. Davis Lab Seminar\\
+\emph{Insights from clade-level phylogenomics across evolutionary scales}\\
+\years{2015}Universidad Nacional Autonoma de Mexico\\
+\emph{An introduction to RADseq Phylogenomics}\\
+\years{2015}American Museum of Natural History -- Comparative Biology Seminar\\
+\emph{Phylogeny, Introgression, and adaption as revealed through genomic RADseq analyses}\\
+\years{2015}University of Massachusetts, Amherst -- EEB Department Seminar\\
+\emph{Insights from clade-level phylogenomics across evolutionary scales}\\
+
+\subsection*{Talks at meetings/conferences}
+\years{2009}Evolution meeting, Moscow, Idaho\\
+\years{2010}Graduate student seminar, University of Chicago\\
+\years{2010}Dissertation proposal, University of Chicago\\
+\years{2011}Graduate student seminar, University of Chicago\\
+\years{2012}Graduate student seminar, University of Chicago\\
+\years{2012}Pritzker Laboratory Seminar, Field Museum\\
+\years{2012}Evolution meeting, Ottawa, Canada\\
+\years{2013}Graduate student seminar, University of Chicago\\
+\years{2013}Evolution meeting, Snowbird, Utah\\
+\years{2014}Botany meeting, Boise, Idaho\\
+\years{2014}Evolution meeting, Raliegh, North Carolina\\
+\years{2015}Society for Systematic Biologists stand-alone meeting, Ann Arbor, Michigan\\
+\years{2015}Botany meeting, Edmonton, Alberta\\
+
+\section*{Teaching}
+\subsection*{University Teaching Experience}
+\years{2007}\emph{Introduction to Biochemistry}, University of Minnesota (A. Hooper)\\
+Teaching Assistant -- Led discussion groups, study sessions, and grading.\\
+\years{2009}\emph{Ecology and Evolution of the Southwest Deserts}, University of Chicago (E. Larsen)\\
+Teaching Assistant -- Led discussion groups, study sessions, and grading. \\
+\years{2009}\emph{Field course in desert ecology and evolution}, University of Chicago (E. Larsen)\\
+Teaching Assistant -- Organized undergraduate student projects on a three week field course to the southwestern US deserts.\\
+\years{2009}\emph{Ecology and evolution of southwest deserts}, University of Chicago (E. Larsen)\\
+Guest Lecture -- ``plant adaptation and C3/C4 photosynthesis''\\
+\years{2011}\emph{Environmental Ecology}, University of Chicago (T. Price)\\
+Teaching Assistant -- Led discussion groups, field-related lab classes, and grading. \\
+\years{2013}\emph{Ecology and evolution of the Southwest Deserts}, University of Chicago (E. Larsen)\\
+Teaching Assistant -- Organized undergraduate student projects on a three week field course to the southwestern US deserts.\\
+
+\subsection*{Workshops taught}
+\years{2015}Introduction to RADseq Phylogenomics: \emph{pyrad} workshop. University of Hawaii at Manoa.\\
+\years{2015}Introduction to RADseq Phylogenomics: \emph{pyrad} workshop. Universidad Nacional Autonoma de Mexico.\\
+
+%\hrule
+\section*{Service to the profession}
+\subsection*{Scientific software (github.com/dereneaton)}
+\years{2015}\emph{ipyrad} -- Python module for interactive RADseq assembly, genomic analyses, and plotting.\\
+\years{2015}\emph{simrrls} -- Program for simulation of RADseq data with realistic locus dropout. \\
+\years{2014}\emph{pyrad} -- Program for assembly of RADseq data sets and analyses of introgression. \\
+
+\subsection*{Outreach}
+\years{2009-2011} SERTS -- Northwestern University\\
+Mentored undergraduates in collection-based research at the Field Museum.\\
+\years{2012} Featured Scientist for the DNA Discovery Center -- Field Museum of Natural History.\\
+Talked with visitors and answered questions on the Pritzker Lab Facebook page. \\
+\years{2009-2013} Evolutionary Discussion Group Organizer -- Field Museum of Natural History\\
+Organized an evolution focused journal club for Chicago area researchers.\\ 
+\years{2009-2013} PlantingScience -- Botanical Society of America\\
+Mentored middle- and high-school students in plant science projects.\\
+\years{2013} Undergraduate Research Symposium Judge -- University of Chicago\\
+\years{2013} Organized Ecological Speciation graduate reading group -- University of Chicago\\
+\years{2008-2015} Member's night -- Field Museum of Natural History\\
+Hosted a booth with videos, photos, and specimens to share collecting and herbarium research with Field Museum members behind the scenes.\\
+\years{2015} Yale Data Hack -- Team leader and presenter. \\
+
+\subsection*{Professional societies}
+Society for Systematic Biologists (SSB)\\
+Botanical Society of America (BSA)\\
+
+\subsection*{Volunteered peer-review}
+NSF Department of Environmental Biology (DEB)\\
+Proceedings of the National Academy of Sciences\\
+Systematic Biology\\
+PLOS One\\
+Ecology\\
+Proceedings of the Royal Society: B\\
+American Journal of Botany\\
+Journal of Biogeography\\
+Molecular Ecology\\
+Molecular Ecology Resources\\
+Genome Research\\
+Methods in Ecology and Evolution\\
+BMC Research Notes\\
+Molecular Phylogenetics and Evolution\\
+Bioinformatics\\
+Plant species biology\\
+Heredity\\
+
+\subsection*{Media/Press coverage}
+Yale Forestry Data Hack 2015 -- Competition winner: Team flower hacks [\href{http://epi.yale.edu/the-metric/visualizing-future}{link}].\\
+Tale of Two Scientific Fields -- Ecology and Phylogenetics -- Offers New Views of Earth's Biodiversity. [\href{http://nsf.gov/news/news_summ.jsp?cntn_id=125048}{link}].\\
+Twitter handle: @dereneaton\\
+\vfill
+
+% \subsection*{Workshops (participated)}
+% Yale Forestry Data Hack 2015 -- Competition winner: Team flower hacks 
+% Tale of Two Scientific Fields -- Ecology and Phylogenetics -- Offers New Views of Earth's Biodiversity.
+
+
+
+
+\begin{center}
+{\scriptsize  Last updated: \today\- •\- 
+% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
+Typeset in \href{http://nitens.org/taraborelli/cvtex}{
+\fontspec{Times New Roman}\XeTeX }\\
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+\href{http://dereneaton.com/cvtex}{http://dereneaton.com/cvtex}}
+\end{center}
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: Latex
+%%% TeX-PDF-mode: t
+%%% TeX-engine: xetex
+%%% End:
